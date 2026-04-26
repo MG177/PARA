@@ -56,5 +56,5 @@ Brief notes on options not chosen and why.
 
 ## References
 
-- [[Projects/PROJECT_NAME/documentation/note]]
+- [[Projects/PROJECT_NAME/context/note]]
 - External links as plain URLs.

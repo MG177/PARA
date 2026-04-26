@@ -42,7 +42,7 @@ One or two sentences describing the item, its project, and the expected outcome.
 
 ## Links
 
-- Documentation: [[Projects/PROJECT_NAME/documentation/note]]
+- Project context: [[Projects/PROJECT_NAME/context/note]]
 - Design / Spec: 
 - Ticket / Issue: 
 

@@ -9,6 +9,10 @@ tags: [areas, dashboard, area/lumendev]
 
 Software house — ongoing business area.
 
+## Client & product hubs
+
+- [[MOC]] — Aksara Karir LMS (index: `MOC.md`; docs in `docs/`)
+
 ## Link projects here
 
 On any project note under `Projects/`, set frontmatter:
@@ -26,6 +30,10 @@ FROM "Projects"
 WHERE type != "dashboard"
   AND file.name != "Project Intake"
   AND area = "lumendev"
+  AND (
+    (file.folder = "Projects" AND file.name != "Projects Dashboard")
+    OR (file.name = "MOC" AND regexmatch("^Projects/[^/]+$", file.folder))
+  )
   AND status = "active"
 SORT due ASC, created DESC
 ```
@@ -38,6 +46,10 @@ FROM "Projects"
 WHERE type != "dashboard"
   AND file.name != "Project Intake"
   AND area = "lumendev"
+  AND (
+    (file.folder = "Projects" AND file.name != "Projects Dashboard")
+    OR (file.name = "MOC" AND regexmatch("^Projects/[^/]+$", file.folder))
+  )
   AND (status = "waiting" OR status = "on-hold")
 SORT created DESC
 ```
@@ -50,6 +62,10 @@ FROM "Projects"
 WHERE type != "dashboard"
   AND file.name != "Project Intake"
   AND area = "lumendev"
+  AND (
+    (file.folder = "Projects" AND file.name != "Projects Dashboard")
+    OR (file.name = "MOC" AND regexmatch("^Projects/[^/]+$", file.folder))
+  )
   AND status = "done"
 SORT completed DESC
 LIMIT 10
@@ -61,6 +77,11 @@ LIMIT 10
 TASK
 FROM "Projects"
 WHERE area = "lumendev"
+  AND (
+    (file.folder = "Projects" AND file.name != "Projects Dashboard" AND file.name != "Project Intake")
+    OR (file.name = "MOC" AND regexmatch("^Projects/[^/]+$", file.folder))
+  )
+  AND !completed
 ```
 
 ---

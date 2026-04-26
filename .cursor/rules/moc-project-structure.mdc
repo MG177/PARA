@@ -1,5 +1,7 @@
 ---
-description: Enforce non-prefixed MOC project knowledge structure under Projects.
+description: >-
+  Project hub patterns under Projects/ (flat vs MOC), feature/repo folder indexing,
+  area frontmatter for dashboards, and Dataview regexmatch(pattern, field) for hub queries.
 alwaysApply: true
 ---
 
@@ -7,12 +9,41 @@ alwaysApply: true
 
 Use this layout for every project under `Projects/`. Names are plain; never use numeric prefixes.
 
-## Required layout
+## Vault hub pattern (pick one per project)
+
+Apply this to **any** project the user tracks in Obsidian—including **feature projects**, client repos, or app folders under `Projects/`.
+
+1. **Folder project (recommended for code + docs trees)** — `Projects/<Project Name>/` with **`MOC.md`** at that folder root as the **only** vault index for that slug. Link from `MOC.md` into `context/`, `docs/`, `decisions/`, etc. **Do not** also create `Projects/<Project Name>.md` at the parent `Projects/` root (duplicate name + confusion).
+2. **Flat hub** — a single note `Projects/<Project Name>.md` with no sibling folder of the same name. Use when the project is lightweight and has no dedicated subdirectory.
+
+Area dashboards (e.g. [[Areas/LumenDev]]) and [[Projects/Projects Dashboard]] Dataviews expect project metadata on whichever file is the hub:
+
+- `status`: `active` | `waiting` | `on-hold` | `done`
+- `due`, `completed` (when `done`) as needed
+- `area: <slug>` (e.g. `lumendev`) and/or tag `area/<slug>` so area queries pick the note up
+
+## Dataview: hub rows and `regexmatch` argument order
+
+Dashboards often union **root hubs** (`file.folder = "Projects"`) with **folder `MOC.md`** files (`file.name = "MOC"` and folder is exactly `Projects/<one segment>`).
+
+Dataview’s `regexmatch` is **`regexmatch(pattern, field)`** — **pattern first, string second**. Wrong order (e.g. `regexmatch(file.folder, "^Projects/…")`) matches nothing and **drops all folder projects** from tables.
+
+Use:
+
+```text
+file.name = "MOC" AND regexmatch("^Projects/[^/]+$", file.folder)
+```
+
+Combine with root hubs (exclude `Projects Dashboard`, `Project Intake`). Apply the **same** hub filter to `TASK` queries so `docs/` and other deep trees do not flood task lists.
+
+## Required layout (folder-based projects)
+
+For a project stored as **`Projects/<Project Name>/`** (feature tree, repo checkout, etc.):
 
 ```
 Projects/<Project Name>/
   MOC.md
-  documentation/
+  context/
   decisions/
   changelog/
   backlog/
@@ -21,8 +52,17 @@ Projects/<Project Name>/
   archive/
 ```
 
-- `MOC.md` is required and is the project entry point.
+- `MOC.md` is required for this layout and is the project entry point in Obsidian.
 - Folders are created only when the project has notes for them.
+
+## `docs/` vs `context/` (code-adjacent projects)
+
+Many folder projects include a **`docs/`** tree (submodule, git subtree, or copy of the application repo’s markdown). Treat it as **technical / product knowledge maintained with the code** — architecture, data model, API lists, test plans. Hub file is usually **`docs/README.md`**.
+
+**`context/`** holds **vault-native project narrative**: client profile, commercial terms, onboarding / handover, short vault-side system summary. It is **not** a second copy of `docs/`; link from `context/` into `docs/README.md` (or deeper pages) instead of duplicating technical specs.
+
+- **Do not** move submodule-mounted markdown into `context/` unless you accept drift from the repo.
+- **Bridge:** add **`context/index.md`** listing context notes and linking **`docs/README`** when `docs/` exists. `MOC.md` Quick Links should list both hubs when both trees exist.
 
 ## Naming constraints
 

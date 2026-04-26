@@ -6,19 +6,42 @@ alwaysApply: false
 
 # MOC Operations
 
-Every project has a single `MOC.md` acting as the control plane.
+For **folder-based** projects (`Projects/<Name>/…`), a single **`MOC.md`** at the project root is the control plane. If the project uses a **flat hub** only (`Projects/<Name>.md` with no folder), treat that note as the hub instead—see `.cursor/rules/moc-project-structure.mdc` (never both same slug).
 
 ## Required sections in MOC.md
 
 - `## TL;DR`
 - `## Outcome`
 - `## Status`
-- `## Quick Links` (documentation, decisions, changelog, backlog, meetings, runbooks)
+- `## Quick Links` (project context index, technical `docs/README` when present, decisions, changelog, backlog, meetings, runbooks)
+- `## Project folders (what goes where)`
 - `## Open Decisions`
 - `## Active Backlog`
 - `## Recent Changes`
 - `## Risks & Blockers`
 - `## Next Actions`
+
+## `## Project folders (what goes where)` (required body)
+
+Each folder MOC must include this section with the table below (agents may paste verbatim). Keeps `docs/` vs `context/` distinct from decisions, backlog, and runbooks.
+
+| Folder | Use for | Do not use for |
+|--------|---------|----------------|
+| **`context/`** | Client, commercial, onboarding, handover, short vault-side system summary; hub **`context/index.md`**. | Technical specs duplicated from the repo — link to **`docs/README`** instead. |
+| **`docs/`** (when present) | Technical / product docs maintained with the codebase (architecture, data model, APIs, tests). Hub **`docs/README.md`**. | Client relationship notes, ADRs, backlog items — those live elsewhere. |
+| **`decisions/`** | ADRs: “we chose A over B”, dated rationale. | Run steps or task lists. |
+| **`runbooks/`** | Repeatable procedures when something breaks or needs an operator checklist. | Product requirements or ADR rationale. |
+| **`backlog/`** | Prioritized work, bugs, features, owners. | Long-form reference docs. |
+| **`meetings/`** | Notes tied to a specific meeting or call. | Evergreen architecture writeups. |
+| **`changelog/`** | Dated “what changed” in the vault or project narrative. | Repo git history (unless you intentionally mirror a release note). |
+| **`archive/`** | Superseded or parked project notes. | Active work. |
+
+**One-line test:** if every open task and meeting disappeared, would this note still help someone understand the project? If yes, it probably belongs in **`context/`** or **`docs/`** (technical depth); if it is a choice record, **`decisions/`**; if it is “do this when”, **`runbooks/`**.
+
+## Quick Links expectations
+
+- Always link **`[[Projects/<Name>/context/index]]`** when the project uses a `context/` tree (create `context/index.md` if missing).
+- When **`docs/`** exists (repo mount / submodule / synced tree), add **`[[Projects/<Name>/docs/README]]`** (or the project’s agreed hub path) on its own Quick Links line so technical vs vault narrative are not conflated.
 
 ## Linking discipline
 

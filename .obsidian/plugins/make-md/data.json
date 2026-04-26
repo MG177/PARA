@@ -52,11 +52,11 @@
     "Projects/Projects/Notes",
     "Projects/Projects/aksara-karir",
     "//Inbox",
-    "//Projects/Projects/aksara-karir",
     "//Projects/Projects/{{title}}",
     "//Projects/Projects/{{title}}/Projects/{{title}}/backlog",
     "//Areas",
-    "//_System"
+    "//_System",
+    "//Projects/Projects/aksara-karir"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",
@@ -68,6 +68,8 @@
     "_assets",
     "_blocks"
   ],
+  "newFileLocation": "root",
+  "newFileFolderPath": "",
   "inlineBacklinks": false,
   "inlineContext": true,
   "inlineBacklinksExpanded": false,
