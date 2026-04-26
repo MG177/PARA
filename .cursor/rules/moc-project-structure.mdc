@@ -64,6 +64,8 @@ Many folder projects include a **`docs/`** tree (submodule, git subtree, or copy
 - **Do not** move submodule-mounted markdown into `context/` unless you accept drift from the repo.
 - **Bridge:** add **`context/index.md`** listing context notes and linking **`docs/README`** when `docs/` exists. `MOC.md` Quick Links should list both hubs when both trees exist.
 
+**Submodule at clone root (split hub):** If the technical repo must be mounted at **`Projects/<slug>/`** (submodule root = repo root, no nested `docs/` folder), put the vault hub (**`MOC.md`**, `context/`, `backlog/`, etc.) in a **sibling** folder such as **`Projects/<slug>-hub/`**. Quick Links on the hub then point to **`[[Projects/<slug>/README]]`** (or the repo’s doc entry path). Example: `Projects/aksara-karir/` = docs submodule only; `Projects/aksara-karir-hub/` = PARA-tracked MOC and governance.
+
 ## Naming constraints
 
 - Never use numbered folder or file prefixes such as `01-...`, `02_...`, or `10 - ...`.

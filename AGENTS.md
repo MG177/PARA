@@ -6,7 +6,7 @@ Operational guide for coding agents in this workspace.
 
 - Workspace root is `PARA/` with top-level folders: `Areas/`, `Inbox/`, `Projects/`, `Resources/`, `Temp/`, `_Archive/`, `_System/`.
 - Treat this as a mixed workspace (notes + projects). Confirm target path before creating or moving files.
-- **Obsidian project hubs:** feature or app work under `Projects/<name>/` should index the vault via **`MOC.md`** in that folder—not a duplicate `Projects/<name>.md`. Link areas with `area:` / `area/…` tags. Dashboard Dataview must use **`regexmatch(pattern, field)`** (pattern first). Folder layout: **`context/`** = vault-side client/onboarding/commercial notes (hub `context/index.md`); **`docs/`** = technical/product markdown with the code (when present). Full rules: `.cursor/rules/moc-project-structure.mdc`.
+- **Obsidian project hubs:** feature or app work under `Projects/<name>/` should index the vault via **`MOC.md`** in that folder—not a duplicate `Projects/<name>.md`. Link areas with `area:` / `area/…` tags. Dashboard Dataview must use **`regexmatch(pattern, field)`** (pattern first). Folder layout: **`context/`** = vault-side client/onboarding/commercial notes (hub `context/index.md`); **`docs/`** = technical/product markdown with the code (when present). If the technical repo is a submodule at **`Projects/<slug>/`** (clone root), keep the vault hub in **`Projects/<slug>-hub/`** (see `moc-project-structure.mdc`, submodule at clone root). Full rules: `.cursor/rules/moc-project-structure.mdc`.
 
 ## Path Discipline
 

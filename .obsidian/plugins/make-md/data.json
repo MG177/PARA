@@ -51,12 +51,14 @@
     "//Projects",
     "Projects/Projects/Notes",
     "Projects/Projects/aksara-karir",
+    "Projects/Projects/aksara-karir-hub",
     "//Inbox",
     "//Projects/Projects/{{title}}",
     "//Projects/Projects/{{title}}/Projects/{{title}}/backlog",
     "//Areas",
     "//_System",
-    "//Projects/Projects/aksara-karir"
+    "//Projects/Projects/aksara-karir",
+    "//Projects/Projects/aksara-karir-hub"
   ],
   "expandFolderOnClick": true,
   "spacesFolder": "Tags",

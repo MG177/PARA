@@ -11,7 +11,7 @@ Canonical spec: **`.cursor/rules/moc-project-structure.mdc`** (always on). **`.c
 
 ## Do this
 
-1. **Folder project (features, clones, docs trees)** — `Projects/<slug>/` with **`MOC.md`** at that root as the **only** Obsidian index for that slug. Link into **`context/`** (vault narrative), **`docs/`** (technical repo mount when present), `decisions/`, etc. See **`docs/` vs `context/`** in `.cursor/rules/moc-project-structure.mdc`. Never add `Projects/<slug>.md` alongside the same-named folder.
+1. **Folder project (features, clones, docs trees)** — Usually `Projects/<slug>/` with **`MOC.md`** at that root. If the technical repo submodule occupies **`Projects/<slug>/`** alone (clone root), put the vault hub in **`Projects/<slug>-hub/`** with **`MOC.md`** there. Link **`context/`**, **`docs/`** (or sibling submodule `README`), `decisions/`, etc. See **`docs/` vs `context/`** and split-hub note in `.cursor/rules/moc-project-structure.mdc`. Never add `Projects/<slug>.md` alongside the same-named folder when a same-named directory exists.
 2. **Flat project** — only `Projects/<Slug>.md`; no `Projects/<Slug>/` folder with the same name.
 3. **Dashboards** — on the hub file set `status`, optional `due` / `completed`, and `area: <slug>` (and/or `area/<slug>` tag) so [[Areas/LumenDev]]-style Dataviews match.
 4. **Dataview** — hub union for folder MOCs must use **`regexmatch(pattern, field)`** (pattern first). Correct fragment:

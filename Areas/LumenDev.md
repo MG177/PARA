@@ -11,7 +11,7 @@ Software house — ongoing business area.
 
 ## Client & product hubs
 
-- [[MOC]] — Aksara Karir LMS (index: `MOC.md`; docs in `docs/`)
+- [[Projects/aksara-karir-hub/MOC]] — Aksara Karir LMS (vault hub; technical docs submodule at `Projects/aksara-karir/`)
 
 ## Link projects here
 
