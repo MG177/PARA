@@ -1,0 +1,441 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Lewati ke konten utama" [ref=e2] [cursor=pointer]
+      - link "Bantuan aksesibilitas" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=id
+      - link "Masukan aksesibilitas" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Ke Beranda Google" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=id&sa=X&ved=0ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Cari" [ref=e26]: Cursor IDE rules skills .cursor agent 2025 Cursor IDE rules skills .cursor agent 2025
+            - generic [ref=e27]:
+              - button "Hapus" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Telusuri dengan suara" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Telusuri pakai gambar" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Telusuri" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Setelan" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Aplikasi Google" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Login" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=id&passive=true&continue=https://www.google.com/search%3Fq%3DCursor%2BIDE%2Brules%2Bskills%2B.cursor%2Bagent%2B2025&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "Mode AI" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&udm=50&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&aep=1&ntc=1&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ2J8OegQIDhAI
+              - generic [ref=e83]: Mode AI
+          - listitem [ref=e84]:
+            - link "Semua" [disabled] [ref=e85]:
+              - generic [ref=e87]: Semua
+          - listitem [ref=e88]:
+            - link "Gambar" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=2&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=Cursor+IDE+rules+skills+.cursor+agent+2025&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQtKgLegQIFBAB
+              - generic [ref=e91]: Gambar
+          - listitem [ref=e92]:
+            - link "Video" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=7&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=Cursor+IDE+rules+skills+.cursor+agent+2025&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQtKgLegQIExAB
+              - generic [ref=e95]: Video
+          - listitem [ref=e96]:
+            - link "Shopping" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=28&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=Cursor+IDE+rules+skills+.cursor+agent+2025&ved=1t:220175&ictx=111
+              - generic [ref=e99]: Shopping
+          - listitem [ref=e100]:
+            - link "Video singkat" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=39&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=Cursor+IDE+rules+skills+.cursor+agent+2025&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQs6gLegQIERAB
+              - generic [ref=e103]: Video singkat
+          - listitem [ref=e104]:
+            - link "Berita" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&q=Cursor+IDE+rules+skills+.cursor+agent+2025&tbm=nws&source=lnms&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ0pQJegQIEBAB
+              - generic [ref=e107]: Berita
+          - listitem [ref=e108]:
+            - button "Filter lainnya" [ref=e109] [cursor=pointer]:
+              - generic "Filter lainnya" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: Lainnya
+                  - img [ref=e114]
+        - button "Alat" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Alat
+            - img [ref=e122]
+    - heading "Hasil Telusur" [level=1] [ref=e124]
+    - generic [ref=e130]:
+      - generic [ref=e131]: Looking for results in English?
+      - link [ref=e132] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e134]
+      - link "Change to English" [ref=e136] [cursor=pointer]:
+        - /url: /setprefs?sig=0__Dl_fTRkNsKY_3NIKd1W9m9QXm0%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3DCursor%2BIDE%2Brules%2Bskills%2B.cursor%2Bagent%2B2025&hl=en&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQhoQCKAF6BAgJEAQ
+      - link "Tetap dalam bahasa Bahasa Indonesia" [ref=e137] [cursor=pointer]:
+        - /url: "#"
+      - link "Setelan bahasa" [ref=e139] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=id&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQiIQCKAN6BAgJEAY#languages
+    - main [ref=e141]:
+      - generic [ref=e145]:
+        - generic [ref=e149]:
+          - generic [ref=e151]:
+            - heading "Video" [level=2] [ref=e152]
+            - button "Tentang hasil ini" [ref=e153] [cursor=pointer]:
+              - img [ref=e156]
+          - generic [ref=e159]:
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - link "How To 10x Cursor with Rules That Take 1 Minute To Create YouTube Elie Steinbock 18 Apr 2025" [ref=e169] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=sxqq9Eql6Cc
+                    - heading "How To 10x Cursor with Rules That Take 1 Minute To Create YouTube Elie Steinbock 18 Apr 2025" [level=3] [ref=e170]:
+                      - generic [ref=e173]: How To 10x Cursor with Rules That Take 1 Minute To Create
+                      - generic [ref=e175]:
+                        - generic [ref=e176]:
+                          - text: YouTube
+                          - generic [ref=e177]: · Elie Steinbock
+                        - generic [ref=e178]: 18 Apr 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Elie Steinbock
+                      - button "Tentang hasil ini" [ref=e179] [cursor=pointer]:
+                        - img [ref=e182]
+                - button "How To 10x Cursor with Rules That Take 1 Minute To Create oleh Elie Steinbock di YouTube. Putar di Google. 6:29" [ref=e184] [cursor=pointer]:
+                  - generic [ref=e185]:
+                    - img [ref=e191]
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: 6:29
+                      - img [ref=e198]
+              - button "7 momen penting di video ini" [ref=e204] [cursor=pointer]:
+                - generic [ref=e213]:
+                  - generic [ref=e216]: 7 momen penting di video ini
+                  - img [ref=e218]
+            - generic [ref=e224]:
+              - generic [ref=e225]:
+                - generic [ref=e226]:
+                  - 'link "Ultimate Cursor AI IDE Rules Guide: All 5 Levels and ... YouTube Kirill Markin 29 Mei 2025" [ref=e228] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=gw8otRr2zpw
+                    - 'heading "Ultimate Cursor AI IDE Rules Guide: All 5 Levels and ... YouTube Kirill Markin 29 Mei 2025" [level=3] [ref=e229]':
+                      - generic [ref=e232]: "Ultimate Cursor AI IDE Rules Guide: All 5 Levels and ..."
+                      - generic [ref=e234]:
+                        - generic [ref=e235]:
+                          - text: YouTube
+                          - generic [ref=e236]: · Kirill Markin
+                        - generic [ref=e237]: 29 Mei 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Kirill Markin
+                      - button "Tentang hasil ini" [ref=e238] [cursor=pointer]:
+                        - img [ref=e241]
+                - 'button "Ultimate Cursor AI IDE Rules Guide: All 5 Levels and ... oleh Kirill Markin di YouTube. Putar di Google. 17:24" [ref=e243] [cursor=pointer]':
+                  - generic [ref=e244]:
+                    - img [ref=e247]
+                    - generic [ref=e250]:
+                      - generic [ref=e251]: 17:24
+                      - img [ref=e254]
+              - button "9 momen penting di video ini" [ref=e260] [cursor=pointer]:
+                - generic [ref=e269]:
+                  - generic [ref=e272]: 9 momen penting di video ini
+                  - img [ref=e274]
+            - generic [ref=e282]:
+              - generic [ref=e283]:
+                - link "Cursor Agent Skills Update is INSANE! YouTube Julian Goldie SEO 25 Jan 2026" [ref=e285] [cursor=pointer]:
+                  - /url: https://www.youtube.com/watch?v=facJZ_1Xc9k
+                  - heading "Cursor Agent Skills Update is INSANE! YouTube Julian Goldie SEO 25 Jan 2026" [level=3] [ref=e286]:
+                    - generic [ref=e289]: Cursor Agent Skills Update is INSANE!
+                    - generic [ref=e291]:
+                      - generic [ref=e292]:
+                        - text: YouTube
+                        - generic [ref=e293]: · Julian Goldie SEO
+                      - generic [ref=e294]: 25 Jan 2026
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Julian Goldie SEO
+                    - button "Tentang hasil ini" [ref=e295] [cursor=pointer]:
+                      - img [ref=e298]
+              - button "Cursor Agent Skills Update is INSANE! oleh Julian Goldie SEO di YouTube. Putar di Google. 12:37" [ref=e300] [cursor=pointer]:
+                - generic [ref=e301]:
+                  - img [ref=e307]
+                  - generic [ref=e310]:
+                    - generic [ref=e311]: 12:37
+                    - img [ref=e314]
+          - link "Lihat semua video" [ref=e318] [cursor=pointer]:
+            - /url: /search?sca_esv=efff2c96d3f18bd3&udm=7&q=Cursor+IDE+rules+skills+.cursor+agent+2025&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8ccDKAJ6BAgYEAQ
+            - separator [ref=e319]
+            - generic [ref=e320]:
+              - generic [ref=e321]: Lihat semua
+              - img [ref=e323]
+        - generic [ref=e327]:
+          - heading "Web results" [level=2] [ref=e328]
+          - generic [ref=e329]:
+            - generic [ref=e332]:
+              - link "Best practices for coding with agents Cursor https://cursor.com › blog › a..." [ref=e334] [cursor=pointer]:
+                - /url: https://cursor.com/blog/agent-best-practices
+                - heading "Best practices for coding with agents" [level=3] [ref=e335]
+                - generic [ref=e340]:
+                  - generic [ref=e342]: Cursor
+                  - generic [ref=e344]: https://cursor.com › blog › a...
+              - generic [ref=e345]:
+                - generic [ref=e346]: ·
+                - link "Terjemahkan halaman ini" [ref=e347] [cursor=pointer]:
+                  - /url: https://cursor.com/blog/agent-best-practices
+              - button "Tentang hasil ini" [ref=e348] [cursor=pointer]:
+                - img [ref=e351]
+            - generic [ref=e354]:
+              - generic [ref=e355]: 9 Jan 2026 —
+              - generic [ref=e356]:
+                - text: "Cursor provides two main ways to customize agent behavior:"
+                - emphasis [ref=e357]: Rules for static context that applies to every conversation
+                - text: ", and Skills for dynamic ..."
+            - generic [ref=e359]: "Tidak ada: .cursor"
+        - generic [ref=e363]:
+          - generic [ref=e366]:
+            - link "Agent Skills | Cursor Docs Cursor https://cursor.com › docs › s..." [ref=e368] [cursor=pointer]:
+              - /url: https://cursor.com/docs/skills
+              - heading "Agent Skills | Cursor Docs" [level=3] [ref=e369]
+              - generic [ref=e374]:
+                - generic [ref=e376]: Cursor
+                - generic [ref=e378]: https://cursor.com › docs › s...
+            - generic [ref=e379]:
+              - generic [ref=e380]: ·
+              - link "Terjemahkan halaman ini" [ref=e381] [cursor=pointer]:
+                - /url: https://cursor.com/docs/skills
+            - button "Tentang hasil ini" [ref=e382] [cursor=pointer]:
+              - img [ref=e385]
+          - generic [ref=e389]:
+            - text: Extend AI agents with specialized capabilities using
+            - emphasis [ref=e390]: Agent Skills
+            - text: ", an open standard for packaging reusable knowledge and scripts."
+          - generic [ref=e392]:
+            - text: "Tidak ada: 2025 ‎| Telusuri dengan:"
+            - link "2025" [ref=e393] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&q=Cursor+IDE+rules+skills+.cursor+agent+%222025%22&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ5t4CegQIHxAB
+        - generic [ref=e397]:
+          - generic [ref=e400]:
+            - link "Getting Better Results from Cursor AI with Simple Rules Medium · Andi Ashari 170+ suka · 1 tahun yang lalu" [ref=e402] [cursor=pointer]:
+              - /url: https://medium.com/@aashari/getting-better-results-from-cursor-ai-with-simple-rules-cbc87346ad88
+              - heading "Getting Better Results from Cursor AI with Simple Rules" [level=3] [ref=e403]
+              - generic [ref=e408]:
+                - generic [ref=e410]: Medium · Andi Ashari
+                - generic [ref=e412]: 170+ suka · 1 tahun yang lalu
+            - button "Tentang hasil ini" [ref=e413] [cursor=pointer]:
+              - img [ref=e416]
+          - generic [ref=e420]:
+            - text: I put together a simple set of
+            - emphasis [ref=e421]: rules
+            - text: to make it better at fixing bugs and building new stuff. I thought I'd share them with you in case you want to try them ...
+        - generic [ref=e425]:
+          - generic [ref=e428]:
+            - link "How to use Agent Skills in Cursor IDE? - Help Cursor - Community Forum https://forum.cursor.com › ..." [ref=e430] [cursor=pointer]:
+              - /url: https://forum.cursor.com/t/how-to-use-agent-skills-in-cursor-ide/149860
+              - heading "How to use Agent Skills in Cursor IDE? - Help" [level=3] [ref=e431]
+              - generic [ref=e436]:
+                - generic [ref=e438]: Cursor - Community Forum
+                - generic [ref=e440]: https://forum.cursor.com › ...
+            - generic [ref=e441]:
+              - generic [ref=e442]: ·
+              - link "Terjemahkan halaman ini" [ref=e443] [cursor=pointer]:
+                - /url: https://forum.cursor.com/t/how-to-use-agent-skills-in-cursor-ide/149860
+            - button "Tentang hasil ini" [ref=e444] [cursor=pointer]:
+              - img [ref=e447]
+          - generic [ref=e450]:
+            - generic [ref=e451]: 25 Jan 2026 —
+            - generic [ref=e452]:
+              - text: When you're working in Agent chat,
+              - emphasis [ref=e453]: Cursor automatically presents available skills to the agent
+              - text: . The agent will decide when a skill is relevant ...
+          - generic [ref=e455]:
+            - text: "Tidak ada: 2025 ‎| Telusuri dengan:"
+            - link "2025" [ref=e456] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&q=Cursor+IDE+rules+skills+.cursor+agent+%222025%22&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ5t4CegQIShAB
+        - generic [ref=e460]:
+          - generic [ref=e463]:
+            - link "Cursor Rules vs Skills LinkedIn · Lior Gal 20+ reaksi · 3 bulan yang lalu" [ref=e465] [cursor=pointer]:
+              - /url: https://www.linkedin.com/pulse/cursor-rules-vs-skills-lior-gal-6gstf
+              - heading "Cursor Rules vs Skills" [level=3] [ref=e466]
+              - generic [ref=e471]:
+                - generic [ref=e473]: LinkedIn · Lior Gal
+                - generic [ref=e475]: 20+ reaksi · 3 bulan yang lalu
+            - button "Tentang hasil ini" [ref=e476] [cursor=pointer]:
+              - img [ref=e479]
+          - generic [ref=e483]:
+            - text: A
+            - emphasis [ref=e484]: skill
+            - text: defines when it should be used and how the
+            - emphasis [ref=e485]: agent
+            - text: should act when it is relevant. When
+            - emphasis [ref=e486]: skills
+            - text: are enabled, the
+            - emphasis [ref=e487]: agent
+            - text: can dynamically ...
+          - generic [ref=e489]: "Tidak ada: .cursor"
+        - generic [ref=e493]:
+          - generic [ref=e496]:
+            - link "Rules f(project) skills f(agent) - Discussions Cursor - Community Forum https://forum.cursor.com › ..." [ref=e498] [cursor=pointer]:
+              - /url: https://forum.cursor.com/t/rules-f-project-skills-f-agent/148212
+              - heading "Rules f(project) skills f(agent) - Discussions" [level=3] [ref=e499]
+              - generic [ref=e504]:
+                - generic [ref=e506]: Cursor - Community Forum
+                - generic [ref=e508]: https://forum.cursor.com › ...
+            - generic [ref=e509]:
+              - generic [ref=e510]: ·
+              - link "Terjemahkan halaman ini" [ref=e511] [cursor=pointer]:
+                - /url: https://forum.cursor.com/t/rules-f-project-skills-f-agent/148212
+            - button "Tentang hasil ini" [ref=e512] [cursor=pointer]:
+              - img [ref=e515]
+          - generic [ref=e518]:
+            - generic [ref=e519]: 7 Jan 2026 —
+            - generic [ref=e520]:
+              - text: Create AGENTS.md in each project with commands, structure, and guidelines ·
+              - emphasis [ref=e521]: Use .cursor/rules/ for project-specific standards
+              - text: (Always Apply).
+        - generic [ref=e525]:
+          - generic [ref=e528]:
+            - 'link "Cursor IDE Rules for AI: Guidelines for Specialized ... Kirill Markin https://kirill-markin.com › ..." [ref=e530] [cursor=pointer]':
+              - /url: https://kirill-markin.com/articles/cursor-ide-rules-for-ai/
+              - 'heading "Cursor IDE Rules for AI: Guidelines for Specialized ..." [level=3] [ref=e531]'
+              - generic [ref=e536]:
+                - generic [ref=e538]: Kirill Markin
+                - generic [ref=e540]: https://kirill-markin.com › ...
+            - generic [ref=e541]:
+              - generic [ref=e542]: ·
+              - link "Terjemahkan halaman ini" [ref=e543] [cursor=pointer]:
+                - /url: https://kirill-markin.com/articles/cursor-ide-rules-for-ai/
+            - button "Tentang hasil ini" [ref=e544] [cursor=pointer]:
+              - img [ref=e547]
+          - generic [ref=e550]:
+            - generic [ref=e551]: 19 Apr 2025 —
+            - generic [ref=e552]:
+              - emphasis [ref=e553]: Ultimate Cursor AI IDE Rules Guide
+              - text: ": All 5 Levels and .cursorrules (2025). The video walks through: Setting up global cursor rules in Cursor IDE ..."
+        - generic [ref=e558]:
+          - heading "Orang lain juga bertanya" [level=2] [ref=e560]
+          - generic [ref=e561]:
+            - button "How to add agent Skills in Cursor?" [ref=e567] [cursor=pointer]:
+              - generic [ref=e569]: How to add agent Skills in Cursor?
+              - img [ref=e572]
+            - button "What are user rules in Cursor agent?" [ref=e581] [cursor=pointer]:
+              - generic [ref=e583]: What are user rules in Cursor agent?
+              - img [ref=e586]
+            - button "Is Cursor an IDE or AI agent?" [ref=e595] [cursor=pointer]:
+              - generic [ref=e597]: Is Cursor an IDE or AI agent?
+              - img [ref=e600]
+            - button "Do you need coding Skills for Cursor?" [ref=e609] [cursor=pointer]:
+              - generic [ref=e611]: Do you need coding Skills for Cursor?
+              - img [ref=e614]
+        - generic [ref=e619]:
+          - heading "Web results" [level=2] [ref=e620]
+          - generic [ref=e621]:
+            - generic [ref=e624]:
+              - 'link "Cursor: The best way to code with AI Cursor https://cursor.com" [ref=e626] [cursor=pointer]':
+                - /url: https://cursor.com/
+                - 'heading "Cursor: The best way to code with AI" [level=3] [ref=e627]'
+                - generic [ref=e632]:
+                  - generic [ref=e634]: Cursor
+                  - generic [ref=e636]: https://cursor.com
+              - generic [ref=e637]:
+                - generic [ref=e638]: ·
+                - link "Terjemahkan halaman ini" [ref=e639] [cursor=pointer]:
+                  - /url: https://cursor.com/
+              - button "Tentang hasil ini" [ref=e640] [cursor=pointer]:
+                - img [ref=e643]
+            - generic [ref=e647]:
+              - emphasis [ref=e648]: Agents turn ideas into code
+              - text: . Accelerate development by handing off tasks to Cursor, while you focus on making decisions. Learn about agentic development ...
+            - generic [ref=e650]:
+              - text: "Tidak ada: skills ‎| Telusuri dengan:"
+              - link "skills" [ref=e651] [cursor=pointer]:
+                - /url: /search?sca_esv=efff2c96d3f18bd3&q=Cursor+IDE+rules+%22skills%22+.cursor+agent+2025&sa=X&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ5t4CegQISxAB
+        - generic [ref=e655]:
+          - generic [ref=e658]:
+            - 'link "Mastering Cursor: Rules, Agent Skills, Modes, Models, and ... Medium · Rasul Rzayev 50+ suka · 1 bulan yang lalu" [ref=e660] [cursor=pointer]':
+              - /url: https://rzaeeff.medium.com/mastering-cursor-rules-agent-skills-modes-models-and-best-practices-81908ec4f4a4
+              - 'heading "Mastering Cursor: Rules, Agent Skills, Modes, Models, and ..." [level=3] [ref=e661]'
+              - generic [ref=e666]:
+                - generic [ref=e668]: Medium · Rasul Rzayev
+                - generic [ref=e670]: 50+ suka · 1 bulan yang lalu
+            - button "Tentang hasil ini" [ref=e671] [cursor=pointer]:
+              - img [ref=e674]
+          - generic [ref=e678]:
+            - text: Specs, Rules, and Agent Skills —
+            - emphasis [ref=e679]: how to structure guidance for better results
+            - text: ; Autonomous agents — how agents can execute tasks better; Parallel ...
+      - navigation [ref=e682]:
+        - heading "Navigasi Halaman" [level=1] [ref=e683]
+        - text: "1"
+        - link "Page 2" [ref=e686] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=10&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAE
+          - text: "2"
+        - link "Page 3" [ref=e688] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=20&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAG
+          - text: "3"
+        - link "Page 4" [ref=e690] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=30&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAI
+          - text: "4"
+        - link "Page 5" [ref=e692] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=40&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAK
+          - text: "5"
+        - link "Page 6" [ref=e694] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=50&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAM
+          - text: "6"
+        - link "Page 7" [ref=e696] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=60&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAO
+          - text: "7"
+        - link "Page 8" [ref=e698] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=70&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAQ
+          - text: "8"
+        - link "Page 9" [ref=e700] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=80&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAS
+          - text: "9"
+        - link "Page 10" [ref=e702] [cursor=pointer]:
+          - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=90&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8tMDegQINhAU
+          - text: "10"
+        - heading "Berikutnya" [level=2] [ref=e704]:
+          - link "Berikutnya" [ref=e705] [cursor=pointer]:
+            - /url: /search?q=Cursor+IDE+rules+skills+.cursor+agent+2025&sca_esv=efff2c96d3f18bd3&ei=BJjtaaPfDKqdhbIPguvp0Q0&start=10&sa=N&sstk=Af77f_fRKK69BjIHo-k7-_dUuWQKK3QaxjUYfUI65Odjser1I8He-Yw1C8ZG43JZCyAZNfjuzXA7z06jb5Zd4ktFNhH18GunXv5wSg&ved=2ahUKEwij8dim2oqUAxWqTkEAHYJ1OtoQ8NMDegQINhAW
+            - generic [ref=e707]: Berikutnya
+      - navigation
+    - contentinfo [ref=e708]:
+      - heading "Link Footer" [level=1] [ref=e709]
+      - generic [ref=e713]:
+        - generic [ref=e715]:
+          - text: Indonesia
+          - generic [ref=e717]:
+            - button "Curug Sangereng, Kabupaten Tangerang, Banten - Berdasarkan aktivitas Anda sebelumnya" [ref=e719] [cursor=pointer]:
+              - generic [ref=e720]: Curug Sangereng, Kabupaten Tangerang, Banten
+              - generic [ref=e722]:
+                - text: "-"
+                - generic [ref=e723]: Berdasarkan aktivitas Anda sebelumnya
+            - text: "-"
+            - button "Perbarui lokasi" [ref=e725] [cursor=pointer]: Perbarui lokasi
+        - generic [ref=e728]:
+          - link "Bantuan" [ref=e729] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=id&fg=1
+          - link "Kirim masukan" [ref=e730] [cursor=pointer]:
+            - /url: "#"
+          - link "Privasi" [ref=e731] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=id&fg=1
+          - link "Persyaratan" [ref=e732] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=id&fg=1

@@ -1,0 +1,30 @@
+---
+description: Write all markdown as Obsidian-flavored Markdown (OFM) for vault consistency.
+globs: "**/*.md"
+alwaysApply: true
+---
+
+# Obsidian Markdown Standard (Vault-Wide)
+
+This vault uses Obsidian-flavored Markdown (OFM), not plain CommonMark.
+
+## Required conventions
+
+- Use wikilinks for internal notes: `[[Path/Note]]`.
+- Use embed syntax for transclusion/media: `![[Path/Note]]`, `![[image.png]]`.
+- Keep Dataview blocks valid when present (do not rewrite as plain markdown tables unless asked).
+- Preserve YAML frontmatter and Obsidian metadata fields when editing existing notes.
+- Keep headings/task lists compatible with Obsidian core features.
+
+## Editing behavior
+
+- When touching existing notes, preserve current OFM constructs unless user explicitly requests conversion.
+- Do not replace wikilinks with `[label](path.md)` for internal links.
+- Avoid plugin-specific syntax additions unless already used in the target file or explicitly requested.
+- Keep markdown human-readable in Obsidian source mode (avoid HTML unless necessary).
+
+## New note defaults
+
+- Prefer short frontmatter only when useful (e.g., `type`, `status`, `tags`, `created`).
+- Prefer internal references via `[[...]]`.
+- Use relative vault paths in links, without `.md` suffix.

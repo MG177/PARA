@@ -1,0 +1,463 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - paragraph [ref=e10]:
+            - text: Agent Skills now has an official
+            - link "Discord server" [ref=e11] [cursor=pointer]:
+              - /url: https://discord.gg/MKPE9g8aUy
+            - text: . See the
+            - link "announcement" [ref=e12] [cursor=pointer]:
+              - /url: https://github.com/agentskills/agentskills/discussions/273
+            - text: for details.
+          - button "Dismiss banner" [ref=e13] [cursor=pointer]:
+            - img [ref=e14]
+        - generic [ref=e22]:
+          - link "Agent Skills home page Agent Skills" [ref=e24] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e25]: Agent Skills home page
+            - generic [ref=e26]: Agent Skills
+          - generic [ref=e27]:
+            - button "Open search" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]:
+                - img [ref=e30]
+                - generic [ref=e33]: Search...
+              - generic [ref=e34]: ⌘K
+            - button "Toggle assistant panel" [ref=e35] [cursor=pointer]:
+              - img [ref=e36]
+              - generic [ref=e39]: Ask AI
+          - generic [ref=e40]:
+            - navigation [ref=e41]:
+              - list [ref=e42]:
+                - listitem [ref=e43] [cursor=pointer]:
+                  - link "agentskills/agentskills 17,179" [ref=e44]:
+                    - /url: https://github.com/agentskills/agentskills
+                    - generic [ref=e45]:
+                      - generic [ref=e46]:
+                        - img [ref=e47]
+                        - generic [ref=e49]: agentskills/agentskills
+                      - generic [ref=e50]:
+                        - img [ref=e51]
+                        - generic [ref=e52]: 17,179
+            - button "Toggle dark mode" [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+      - generic [ref=e62]:
+        - generic [ref=e66]:
+          - list [ref=e67]:
+            - listitem [ref=e68]:
+              - link "Overview" [ref=e69] [cursor=pointer]:
+                - /url: /home
+                - generic [ref=e72]: Overview
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - link "Specification" [ref=e75] [cursor=pointer]:
+                - /url: /specification
+                - generic [ref=e78]: Specification
+          - list [ref=e79]:
+            - listitem [ref=e80]:
+              - link "Client Showcase" [ref=e81] [cursor=pointer]:
+                - /url: /clients
+                - generic [ref=e84]: Client Showcase
+          - generic [ref=e85]:
+            - heading "For skill creators" [level=5] [ref=e87]
+            - list [ref=e88]:
+              - listitem [ref=e89]:
+                - link "Quickstart" [ref=e90] [cursor=pointer]:
+                  - /url: /skill-creation/quickstart
+                  - generic [ref=e93]: Quickstart
+              - listitem [ref=e94]:
+                - link "Best practices" [ref=e95] [cursor=pointer]:
+                  - /url: /skill-creation/best-practices
+                  - generic [ref=e98]: Best practices
+              - listitem [ref=e99]:
+                - link "Optimizing descriptions" [ref=e100] [cursor=pointer]:
+                  - /url: /skill-creation/optimizing-descriptions
+                  - generic [ref=e103]: Optimizing descriptions
+              - listitem [ref=e104]:
+                - link "Evaluating skills" [ref=e105] [cursor=pointer]:
+                  - /url: /skill-creation/evaluating-skills
+                  - generic [ref=e108]: Evaluating skills
+              - listitem [ref=e109]:
+                - link "Using scripts" [ref=e110] [cursor=pointer]:
+                  - /url: /skill-creation/using-scripts
+                  - generic [ref=e113]: Using scripts
+          - generic [ref=e114]:
+            - heading "For client implementors" [level=5] [ref=e116]
+            - list [ref=e117]:
+              - listitem [ref=e118]:
+                - link "Adding skills support" [ref=e119] [cursor=pointer]:
+                  - /url: /client-implementation/adding-skills-support
+                  - generic [ref=e122]: Adding skills support
+        - generic [ref=e125]:
+          - banner [ref=e126]:
+            - generic [ref=e128]:
+              - heading "Agent Skills Overview" [level=1] [ref=e129]
+              - generic [ref=e130]:
+                - button "Copy page" [ref=e131] [cursor=pointer]:
+                  - generic [ref=e132]:
+                    - img [ref=e133]
+                    - generic [ref=e136]: Copy page
+                - button "More actions" [ref=e137] [cursor=pointer]:
+                  - img [ref=e138]
+            - paragraph [ref=e141]: A standardized way to give AI agents new capabilities and expertise.
+          - generic [ref=e142]:
+            - heading "Navigate to header What are Agent Skills?" [level=2] [ref=e143]:
+              - link "Navigate to header" [ref=e144] [cursor=pointer]:
+                - /url: "#what-are-agent-skills"
+                - img [ref=e146]
+              - generic [ref=e148] [cursor=pointer]: What are Agent Skills?
+            - generic [ref=e149]: Agent Skills are a lightweight, open format for extending AI agent capabilities with specialized knowledge and workflows.
+            - generic [ref=e150]:
+              - text: At its core, a skill is a folder containing a
+              - code [ref=e151]: SKILL.md
+              - text: file. This file includes metadata (
+              - code [ref=e152]: name
+              - text: and
+              - code [ref=e153]: description
+              - text: ", at minimum) and instructions that tell an agent how to perform a specific task. Skills can also bundle scripts, reference materials, templates, and other resources."
+            - generic [ref=e154]:
+              - generic [ref=e155]:
+                - button "Report incorrect code" [ref=e157] [cursor=pointer]:
+                  - img [ref=e158]
+                - button "Copy the contents from the code block" [ref=e161] [cursor=pointer]:
+                  - img [ref=e162]
+                - button "Ask AI" [ref=e166] [cursor=pointer]:
+                  - img [ref=e167]
+              - code [ref=e173]:
+                - generic [ref=e174]: my-skill/
+                - generic [ref=e175]: "├── SKILL.md # Required: metadata + instructions"
+                - generic [ref=e176]: "├── scripts/ # Optional: executable code"
+                - generic [ref=e177]: "├── references/ # Optional: documentation"
+                - generic [ref=e178]: "├── assets/ # Optional: templates, resources"
+                - generic [ref=e179]: "└── ... # Any additional files or directories"
+            - heading "Navigate to header Why Agent Skills?" [level=2] [ref=e180]:
+              - link "Navigate to header" [ref=e181] [cursor=pointer]:
+                - /url: "#why-agent-skills"
+                - img [ref=e183]
+              - generic [ref=e185] [cursor=pointer]: Why Agent Skills?
+            - generic [ref=e186]: "Agents are increasingly capable, but often don’t have the context they need to do real work reliably. Skills solve this by packaging procedural knowledge and company-, team-, and user-specific context into portable, version-controlled folders that agents load on demand. This gives agents:"
+            - list [ref=e187]:
+              - listitem [ref=e188]:
+                - strong [ref=e189]: Domain expertise
+                - text: ": Capture specialized knowledge — from legal review processes to data analysis pipelines to presentation formatting — as reusable instructions and resources."
+              - listitem [ref=e190]:
+                - strong [ref=e191]: Repeatable workflows
+                - text: ": Turn multi-step tasks into consistent, auditable procedures."
+              - listitem [ref=e192]:
+                - strong [ref=e193]: Cross-product reuse
+                - text: ": Build a skill once and use it across any skills-compatible agent."
+            - heading "Navigate to header How do Agent Skills work?" [level=2] [ref=e194]:
+              - link "Navigate to header" [ref=e195] [cursor=pointer]:
+                - /url: "#how-do-agent-skills-work"
+                - img [ref=e197]
+              - generic [ref=e199] [cursor=pointer]: How do Agent Skills work?
+            - generic [ref=e200]:
+              - text: Agents load skills through
+              - strong [ref=e201]: progressive disclosure
+              - text: ", in three stages:"
+            - list [ref=e202]:
+              - listitem [ref=e203]:
+                - generic [ref=e204]:
+                  - strong [ref=e205]: Discovery
+                  - text: ": At startup, agents load only the name and description of each available skill, just enough to know when it might be relevant."
+              - listitem [ref=e206]:
+                - generic [ref=e207]:
+                  - strong [ref=e208]: Activation
+                  - text: ": When a task matches a skill’s description, the agent reads the full"
+                  - code [ref=e209]: SKILL.md
+                  - text: instructions into context.
+              - listitem [ref=e210]:
+                - generic [ref=e211]:
+                  - strong [ref=e212]: Execution
+                  - text: ": The agent follows the instructions, optionally executing bundled code or loading referenced files as needed."
+            - generic [ref=e213]: Full instructions load only when a task calls for them, so agents can keep many skills on hand with only a small context footprint.
+            - heading "Navigate to header Where can I use Agent Skills?" [level=2] [ref=e214]:
+              - link "Navigate to header" [ref=e215] [cursor=pointer]:
+                - /url: "#where-can-i-use-agent-skills"
+                - img [ref=e217]
+              - generic [ref=e219] [cursor=pointer]: Where can I use Agent Skills?
+            - generic [ref=e220]:
+              - text: Agent Skills are supported by a large number of AI tools and agentic clients — see the
+              - link "Client Showcase" [ref=e221] [cursor=pointer]:
+                - /url: /clients
+              - text: to explore some of them!
+            - generic [ref=e223]:
+              - link "Autohand Code CLI" [ref=e225] [cursor=pointer]:
+                - /url: https://autohand.ai/
+                - img "Autohand Code CLI" [ref=e226]
+              - link "Laravel Boost" [ref=e228] [cursor=pointer]:
+                - /url: https://github.com/laravel/boost
+                - img "Laravel Boost" [ref=e229]
+              - link "OpenAI Codex" [ref=e231] [cursor=pointer]:
+                - /url: https://developers.openai.com/codex
+                - img "OpenAI Codex" [ref=e232]
+              - link "GitHub Copilot" [ref=e234] [cursor=pointer]:
+                - /url: https://github.com/
+                - img "GitHub Copilot" [ref=e235]
+              - link "Factory" [ref=e237] [cursor=pointer]:
+                - /url: https://factory.ai/
+                - img "Factory" [ref=e238]
+              - link "pi" [ref=e240] [cursor=pointer]:
+                - /url: https://shittycodingagent.ai/
+                - img "pi" [ref=e241]
+              - link "Snowflake Cortex Code" [ref=e243] [cursor=pointer]:
+                - /url: https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code
+                - img "Snowflake Cortex Code" [ref=e244]
+              - link "Junie" [ref=e246] [cursor=pointer]:
+                - /url: https://junie.jetbrains.com/
+                - img "Junie" [ref=e247]
+              - link "Roo Code" [ref=e249] [cursor=pointer]:
+                - /url: https://roocode.com
+                - img "Roo Code" [ref=e250]
+              - link "Firebender" [ref=e252] [cursor=pointer]:
+                - /url: https://firebender.com/
+                - img "Firebender" [ref=e253]
+              - link "Piebald" [ref=e255] [cursor=pointer]:
+                - /url: https://piebald.ai
+                - img "Piebald" [ref=e256]
+              - link "Mux" [ref=e258] [cursor=pointer]:
+                - /url: https://mux.coder.com/
+                - img "Mux" [ref=e259]
+              - link "Workshop" [ref=e261] [cursor=pointer]:
+                - /url: https://workshop.ai/
+                - img "Workshop" [ref=e262]
+              - link "VS Code" [ref=e264] [cursor=pointer]:
+                - /url: https://code.visualstudio.com/
+                - img "VS Code" [ref=e265]
+              - link "fast-agent" [ref=e267] [cursor=pointer]:
+                - /url: https://fast-agent.ai/
+                - img "fast-agent" [ref=e268]
+              - link "VT Code" [ref=e270] [cursor=pointer]:
+                - /url: https://github.com/vinhnx/vtcode
+                - img "VT Code" [ref=e271]
+              - link "Google AI Edge Gallery" [ref=e273] [cursor=pointer]:
+                - /url: https://github.com/google-ai-edge/gallery
+                - img "Google AI Edge Gallery" [ref=e274]
+              - link "Agentman" [ref=e276] [cursor=pointer]:
+                - /url: https://agentman.ai/
+                - img "Agentman" [ref=e277]
+              - link "Ona" [ref=e279] [cursor=pointer]:
+                - /url: https://ona.com
+                - img "Ona" [ref=e280]
+              - link "Emdash" [ref=e282] [cursor=pointer]:
+                - /url: https://emdash.sh
+                - img "Emdash" [ref=e283]
+              - link "Claude" [ref=e285] [cursor=pointer]:
+                - /url: https://claude.ai/
+                - img "Claude" [ref=e286]
+              - link "Databricks Genie Code" [ref=e288] [cursor=pointer]:
+                - /url: https://databricks.com/
+                - img "Databricks Genie Code" [ref=e289]
+              - link "Mistral AI Vibe" [ref=e291] [cursor=pointer]:
+                - /url: https://github.com/mistralai/mistral-vibe
+                - img "Mistral AI Vibe" [ref=e292]
+              - link "TRAE" [ref=e294] [cursor=pointer]:
+                - /url: https://trae.ai/
+                - img "TRAE" [ref=e295]
+              - link "OpenCode" [ref=e297] [cursor=pointer]:
+                - /url: https://opencode.ai/
+                - img "OpenCode" [ref=e298]
+              - link "Kiro" [ref=e300] [cursor=pointer]:
+                - /url: https://kiro.dev/
+                - img "Kiro" [ref=e301]
+              - link "Cursor" [ref=e303] [cursor=pointer]:
+                - /url: https://cursor.com/
+                - img "Cursor" [ref=e304]
+              - link "Claude Code" [ref=e306] [cursor=pointer]:
+                - /url: https://claude.ai/code
+                - img "Claude Code" [ref=e307]
+              - link "Goose" [ref=e309] [cursor=pointer]:
+                - /url: https://block.github.io/goose/
+                - img "Goose" [ref=e310]
+              - link "Command Code" [ref=e312] [cursor=pointer]:
+                - /url: https://commandcode.ai/
+                - img "Command Code" [ref=e313]
+              - link "Spring AI" [ref=e315] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-ai/reference
+                - img "Spring AI" [ref=e316]
+              - link "nanobot" [ref=e318] [cursor=pointer]:
+                - /url: https://nanobot.wiki/
+                - img "nanobot" [ref=e319]
+              - link "Qodo" [ref=e321] [cursor=pointer]:
+                - /url: https://www.qodo.ai/
+                - img "Qodo" [ref=e322]
+              - link "Gemini CLI" [ref=e324] [cursor=pointer]:
+                - /url: https://geminicli.com
+                - img "Gemini CLI" [ref=e325]
+              - link "Amp" [ref=e327] [cursor=pointer]:
+                - /url: https://ampcode.com/
+                - img "Amp" [ref=e328]
+              - link "Letta" [ref=e330] [cursor=pointer]:
+                - /url: https://www.letta.com/
+                - img "Letta" [ref=e331]
+              - link "OpenHands" [ref=e333] [cursor=pointer]:
+                - /url: https://openhands.dev/
+                - img "OpenHands" [ref=e334]
+              - link "Autohand Code CLI" [ref=e336] [cursor=pointer]:
+                - /url: https://autohand.ai/
+                - img "Autohand Code CLI" [ref=e337]
+              - link "Laravel Boost" [ref=e339] [cursor=pointer]:
+                - /url: https://github.com/laravel/boost
+                - img "Laravel Boost" [ref=e340]
+              - link "OpenAI Codex" [ref=e342] [cursor=pointer]:
+                - /url: https://developers.openai.com/codex
+                - img "OpenAI Codex" [ref=e343]
+              - link "GitHub Copilot" [ref=e345] [cursor=pointer]:
+                - /url: https://github.com/
+                - img "GitHub Copilot" [ref=e346]
+              - link "Factory" [ref=e348] [cursor=pointer]:
+                - /url: https://factory.ai/
+                - img "Factory" [ref=e349]
+              - link "pi" [ref=e351] [cursor=pointer]:
+                - /url: https://shittycodingagent.ai/
+                - img "pi" [ref=e352]
+              - link "Snowflake Cortex Code" [ref=e354] [cursor=pointer]:
+                - /url: https://docs.snowflake.com/en/user-guide/cortex-code/cortex-code
+                - img "Snowflake Cortex Code" [ref=e355]
+              - link "Junie" [ref=e357] [cursor=pointer]:
+                - /url: https://junie.jetbrains.com/
+                - img "Junie" [ref=e358]
+              - link "Roo Code" [ref=e360] [cursor=pointer]:
+                - /url: https://roocode.com
+                - img "Roo Code" [ref=e361]
+              - link "Firebender" [ref=e363] [cursor=pointer]:
+                - /url: https://firebender.com/
+                - img "Firebender" [ref=e364]
+              - link "Piebald" [ref=e366] [cursor=pointer]:
+                - /url: https://piebald.ai
+                - img "Piebald" [ref=e367]
+              - link "Mux" [ref=e369] [cursor=pointer]:
+                - /url: https://mux.coder.com/
+                - img "Mux" [ref=e370]
+              - link "Workshop" [ref=e372] [cursor=pointer]:
+                - /url: https://workshop.ai/
+                - img "Workshop" [ref=e373]
+              - link "VS Code" [ref=e375] [cursor=pointer]:
+                - /url: https://code.visualstudio.com/
+                - img "VS Code" [ref=e376]
+              - link "fast-agent" [ref=e378] [cursor=pointer]:
+                - /url: https://fast-agent.ai/
+                - img "fast-agent" [ref=e379]
+              - link "VT Code" [ref=e381] [cursor=pointer]:
+                - /url: https://github.com/vinhnx/vtcode
+                - img "VT Code" [ref=e382]
+              - link "Google AI Edge Gallery" [ref=e384] [cursor=pointer]:
+                - /url: https://github.com/google-ai-edge/gallery
+                - img "Google AI Edge Gallery" [ref=e385]
+              - link "Agentman" [ref=e387] [cursor=pointer]:
+                - /url: https://agentman.ai/
+                - img "Agentman" [ref=e388]
+              - link "Ona" [ref=e390] [cursor=pointer]:
+                - /url: https://ona.com
+                - img "Ona" [ref=e391]
+              - link "Emdash" [ref=e393] [cursor=pointer]:
+                - /url: https://emdash.sh
+                - img "Emdash" [ref=e394]
+              - link "Claude" [ref=e396] [cursor=pointer]:
+                - /url: https://claude.ai/
+                - img "Claude" [ref=e397]
+              - link "Databricks Genie Code" [ref=e399] [cursor=pointer]:
+                - /url: https://databricks.com/
+                - img "Databricks Genie Code" [ref=e400]
+              - link "Mistral AI Vibe" [ref=e402] [cursor=pointer]:
+                - /url: https://github.com/mistralai/mistral-vibe
+                - img "Mistral AI Vibe" [ref=e403]
+              - link "TRAE" [ref=e405] [cursor=pointer]:
+                - /url: https://trae.ai/
+                - img "TRAE" [ref=e406]
+              - link "OpenCode" [ref=e408] [cursor=pointer]:
+                - /url: https://opencode.ai/
+                - img "OpenCode" [ref=e409]
+              - link "Kiro" [ref=e411] [cursor=pointer]:
+                - /url: https://kiro.dev/
+                - img "Kiro" [ref=e412]
+              - link "Cursor" [ref=e414] [cursor=pointer]:
+                - /url: https://cursor.com/
+                - img "Cursor" [ref=e415]
+              - link "Claude Code" [ref=e417] [cursor=pointer]:
+                - /url: https://claude.ai/code
+                - img "Claude Code" [ref=e418]
+              - link "Goose" [ref=e420] [cursor=pointer]:
+                - /url: https://block.github.io/goose/
+                - img "Goose" [ref=e421]
+              - link "Command Code" [ref=e423] [cursor=pointer]:
+                - /url: https://commandcode.ai/
+                - img "Command Code" [ref=e424]
+              - link "Spring AI" [ref=e426] [cursor=pointer]:
+                - /url: https://docs.spring.io/spring-ai/reference
+                - img "Spring AI" [ref=e427]
+              - link "nanobot" [ref=e429] [cursor=pointer]:
+                - /url: https://nanobot.wiki/
+                - img "nanobot" [ref=e430]
+              - link "Qodo" [ref=e432] [cursor=pointer]:
+                - /url: https://www.qodo.ai/
+                - img "Qodo" [ref=e433]
+              - link "Gemini CLI" [ref=e435] [cursor=pointer]:
+                - /url: https://geminicli.com
+                - img "Gemini CLI" [ref=e436]
+              - link "Amp" [ref=e438] [cursor=pointer]:
+                - /url: https://ampcode.com/
+                - img "Amp" [ref=e439]
+              - link "Letta" [ref=e441] [cursor=pointer]:
+                - /url: https://www.letta.com/
+                - img "Letta" [ref=e442]
+              - link "OpenHands" [ref=e444] [cursor=pointer]:
+                - /url: https://openhands.dev/
+                - img "OpenHands" [ref=e445]
+            - heading "Navigate to header Open development" [level=2] [ref=e446]:
+              - link "Navigate to header" [ref=e447] [cursor=pointer]:
+                - /url: "#open-development"
+                - img [ref=e449]
+              - generic [ref=e451] [cursor=pointer]: Open development
+            - generic [ref=e452]:
+              - text: The Agent Skills format was originally developed by
+              - link "Anthropic" [ref=e453] [cursor=pointer]:
+                - /url: https://www.anthropic.com/
+              - text: ", released as an open standard, and has been adopted by a growing number of agent products. The standard is open to contributions from the broader ecosystem."
+            - generic [ref=e454]:
+              - text: Come join the discussion on
+              - link "GitHub" [ref=e455] [cursor=pointer]:
+                - /url: https://github.com/agentskills/agentskills
+              - text: or
+              - link "Discord" [ref=e456] [cursor=pointer]:
+                - /url: https://discord.gg/MKPE9g8aUy
+              - text: "!"
+            - heading "Navigate to header Get started with Agent Skills" [level=2] [ref=e457]:
+              - link "Navigate to header" [ref=e458] [cursor=pointer]:
+                - /url: "#get-started-with-agent-skills"
+                - img [ref=e460]
+              - generic [ref=e462] [cursor=pointer]: Get started with Agent Skills
+            - generic [ref=e463]:
+              - link [ref=e464] [cursor=pointer]:
+                - link [ref=e466]:
+                  - /url: /skill-creation/quickstart
+                  - img [ref=e468]
+                  - generic [ref=e469]:
+                    - heading [level=2] [ref=e470]: Quickstart
+                    - generic [ref=e472]: Create your first Agent Skill and see it in action.
+              - link [ref=e473] [cursor=pointer]:
+                - link [ref=e475]:
+                  - /url: /specification
+                  - img [ref=e477]
+                  - generic [ref=e478]:
+                    - heading [level=2] [ref=e479]: Specification
+                    - generic [ref=e481]: The complete format specification for Agent Skills.
+          - link "Specification" [ref=e483] [cursor=pointer]:
+            - /url: /specification
+            - generic [ref=e484]: Specification
+            - img [ref=e485]
+          - generic [ref=e488]:
+            - textbox "Ask a question..." [ref=e489]
+            - generic: ⌘I
+            - button "Send message" [disabled] [ref=e490]:
+              - img [ref=e491]
+          - contentinfo [ref=e493]:
+            - link "Powered by This documentation is built and hosted on Mintlify, a developer documentation platform" [ref=e496] [cursor=pointer]:
+              - /url: https://www.mintlify.com?utm_campaign=poweredBy&utm_medium=referral&utm_source=agent-skills
+              - generic [ref=e497]: Powered by
+              - img [ref=e498]
+              - generic [ref=e507]: This documentation is built and hosted on Mintlify, a developer documentation platform
+  - alert [ref=e508]

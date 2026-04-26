@@ -1,0 +1,53 @@
+---
+description: Enforce canonical Obsidian template usage from _System/Templates.
+globs: "**/*.md"
+alwaysApply: true
+---
+
+# Obsidian Template Usage (Canonical)
+
+This vault uses a centralized template directory with Obsidian Templates/Templater plugin.
+
+## Official Obsidian CLI (automation)
+
+Obsidian ships a **first-party CLI** for vault automation. Use it when the user wants terminal/script workflows alongside direct file edits.
+
+**Setup:** Settings → General → enable **Command line interface**, register PATH ([Obsidian CLI](https://obsidian.md/cli)). **The Obsidian app must be running.** Confirm flags with `obsidian help` (syntax can change between app versions).
+
+**Global option (all commands):**
+
+- `vault=<name>` — target a vault by its Obsidian-registered name when multiple vaults exist.
+
+**Template-related commands** (core **Templates** plugin; names match notes in the configured template folder, e.g. this vault’s `_System/Templates/`):
+
+| Command | Purpose | Parameters |
+|--------|---------|------------|
+| `templates` | List available templates | (none) |
+| `templates total` | Print template count only | `total` |
+| `template:read` | Print template body to stdout | `name=<template>` (required); optional `resolve` (resolve `{{date}}` etc.); optional `title=<title>` (used with `resolve`) |
+| `template:insert` | Insert a template into the **currently active editor** in Obsidian | `name=<template>` (required). **No `file=`** — focus the target note in the app first, or use `create` / `append` / `prepend` as appropriate. |
+| `create` | Create a new note, optionally from a template | `name=<name>` and/or `path=<path>`; `template=<name>` applies the template; optional `content=<text>`, `overwrite`, `open`, `newtab` |
+
+**Related escape hatches (template-adjacent):**
+
+| Command | Purpose | Parameters |
+|--------|---------|------------|
+| `commands` | List command palette IDs | optional `filter=<prefix>` (e.g. `templater`, `template`) |
+| `command` | Run any Obsidian command by ID | `id=<command-id>` (required) — use for **Templater** or other plugins when `template:*` is not enough |
+
+**Scope:** `templates`, `template:read`, `template:insert`, and `create … template=` follow **core Templates** behavior. **Templater** (`tp.*`, user scripts) is not guaranteed to run through `template:insert`; prefer `obsidian commands filter=…` to discover IDs, then `obsidian command id=…`, or Advanced URI / hotkeys.
+
+**Vault alignment:** Template **names** match the app (typically the note basename, e.g. `Project Template` for `Project Template.md`). Canonical sources stay under `_System/Templates/` per the rules below.
+
+## Required behavior
+
+- Use templates from `_System/Templates/` only.
+- Do not create duplicate template notes in project folders (for example, under `Projects/`).
+- For new project notes, use `_System/Templates/Project Template.md` as the source template.
+- Prefer wikilinks to canonical templates (example: `[[_System/Templates/Project Template]]`).
+
+## Agent editing rules
+
+- If a note references a non-canonical template and canonical exists in `_System/Templates/`, update the reference to the canonical template path.
+- If a duplicate template is introduced outside `_System/Templates/`, remove it unless the user explicitly requests a local override.
+- Preserve existing frontmatter and OFM syntax when updating template links.

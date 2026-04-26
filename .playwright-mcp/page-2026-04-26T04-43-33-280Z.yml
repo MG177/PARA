@@ -1,0 +1,606 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Lewati ke konten utama" [ref=e2] [cursor=pointer]
+      - link "Bantuan aksesibilitas" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=id
+      - link "Masukan aksesibilitas" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Ke Beranda Google" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=id&sa=X&ved=0ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8QPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Cari" [ref=e26]: cursor ide skills obsidian vault cursor ide skills obsidian vault
+            - generic [ref=e27]:
+              - button "Hapus" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Telusuri dengan suara" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Telusuri pakai gambar" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Telusuri" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Setelan" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Aplikasi Google" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Login" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=id&passive=true&continue=https://www.google.com/search%3Fq%3Dcursor%2Bide%2Bskills%2Bobsidian%2Bvault%26sei%3D8ZftadDVK9mphbIP_rrQoQg&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "Mode AI" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&udm=50&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&aep=1&ntc=1&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q2J8OegQIDhAI
+              - generic [ref=e83]: Mode AI
+          - listitem [ref=e84]:
+            - link "Semua" [disabled] [ref=e85]:
+              - generic [ref=e87]: Semua
+          - listitem [ref=e88]:
+            - link "Gambar" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=2&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=cursor+ide+skills+obsidian+vault&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8QtKgLegQIFBAB
+              - generic [ref=e91]: Gambar
+          - listitem [ref=e92]:
+            - link "Video" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=7&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=cursor+ide+skills+obsidian+vault&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8QtKgLegQIExAB
+              - generic [ref=e95]: Video
+          - listitem [ref=e96]:
+            - link "Shopping" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=28&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=cursor+ide+skills+obsidian+vault&ved=1t:220175&ictx=111
+              - generic [ref=e99]: Shopping
+          - listitem [ref=e100]:
+            - link "Video singkat" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=39&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=cursor+ide+skills+obsidian+vault&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Qs6gLegQIEBAB
+              - generic [ref=e103]: Video singkat
+          - listitem [ref=e104]:
+            - link "Berita" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&q=cursor+ide+skills+obsidian+vault&tbm=nws&source=lnms&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q0pQJegQIERAB
+              - generic [ref=e107]: Berita
+          - listitem [ref=e108]:
+            - button "Filter lainnya" [ref=e109] [cursor=pointer]:
+              - generic "Filter lainnya" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: Lainnya
+                  - img [ref=e114]
+        - button "Alat" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Alat
+            - img [ref=e122]
+    - heading "Hasil Telusur" [level=1] [ref=e124]
+    - generic [ref=e130]:
+      - generic [ref=e131]: Looking for results in English?
+      - link [ref=e132] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e134]
+      - link "Change to English" [ref=e136] [cursor=pointer]:
+        - /url: /setprefs?sig=0__Dl_fTRkNsKY_3NIKd1W9m9QXm0%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dcursor%2Bide%2Bskills%2Bobsidian%2Bvault%26sei%3D8ZftadDVK9mphbIP_rrQoQg&hl=en&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8QhoQCKAF6BAgLEAQ
+      - link "Tetap dalam bahasa Bahasa Indonesia" [ref=e137] [cursor=pointer]:
+        - /url: "#"
+      - link "Setelan bahasa" [ref=e139] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=id&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8QiIQCKAN6BAgLEAY#languages
+    - main [ref=e141]:
+      - generic [ref=e145]:
+        - generic [ref=e149]:
+          - generic [ref=e151]:
+            - heading "Video" [level=2] [ref=e152]
+            - button "Tentang hasil ini" [ref=e153] [cursor=pointer]:
+              - img [ref=e156]
+          - generic [ref=e159]:
+            - generic [ref=e165]:
+              - generic [ref=e166]:
+                - generic [ref=e167]:
+                  - link "Obsidian + Cursor = Magical AI Knowledge Management YouTube Stable Discussion 21 Okt 2024" [ref=e169] [cursor=pointer]:
+                    - /url: https://www.youtube.com/watch?v=nxss50uZgE0
+                    - heading "Obsidian + Cursor = Magical AI Knowledge Management YouTube Stable Discussion 21 Okt 2024" [level=3] [ref=e170]:
+                      - generic [ref=e173]: Obsidian + Cursor = Magical AI Knowledge Management
+                      - generic [ref=e175]:
+                        - generic [ref=e176]:
+                          - text: YouTube
+                          - generic [ref=e177]: · Stable Discussion
+                        - generic [ref=e178]: 21 Okt 2024
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Stable Discussion
+                      - button "Tentang hasil ini" [ref=e179] [cursor=pointer]:
+                        - img [ref=e182]
+                - button "Obsidian + Cursor = Magical AI Knowledge Management oleh Stable Discussion di YouTube. Putar di Google. 15:12" [ref=e184] [cursor=pointer]:
+                  - generic [ref=e185]:
+                    - img [ref=e191]
+                    - generic [ref=e194]:
+                      - generic [ref=e195]: 15:12
+                      - img [ref=e198]
+              - generic [ref=e203]:
+                - button "14 momen penting di video ini" [expanded] [ref=e204] [cursor=pointer]:
+                  - generic [ref=e207]:
+                    - generic [ref=e210]: 14 momen penting di video ini
+                    - img [ref=e212]
+                - generic [ref=e216]:
+                  - list [ref=e218]:
+                    - generic [ref=e219]:
+                      - link "Introduction to Knowledge Management with Obsidian. 1 dari 14, 0 detik." [ref=e220] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=0
+                        - generic [ref=e223]:
+                          - generic [ref=e224]:
+                            - text: Dari
+                            - generic [ref=e225]: 00:00
+                          - generic [ref=e226]: Introduction to Knowledge Management with Obsidian
+                      - 'link "Exploring Cursor: The AI Code Editor. 2 dari 14, 1 menit, 24 detik." [ref=e227] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=84
+                        - generic [ref=e230]:
+                          - generic [ref=e231]:
+                            - text: Dari
+                            - generic [ref=e232]: 01:24
+                          - generic [ref=e233]: "Exploring Cursor: The AI Code Editor"
+                      - link "Integrating Obsidian with Cursor. 3 dari 14, 2 menit, 35 detik." [ref=e234] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=155
+                        - generic [ref=e237]:
+                          - generic [ref=e238]:
+                            - text: Dari
+                            - generic [ref=e239]: 02:35
+                          - generic [ref=e240]: Integrating Obsidian with Cursor
+                      - link "Using AI to Query Your Knowledge Base. 4 dari 14, 4 menit, 55 detik." [ref=e241] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=295
+                        - generic [ref=e244]:
+                          - generic [ref=e245]:
+                            - text: Dari
+                            - generic [ref=e246]: 04:55
+                          - generic [ref=e247]: Using AI to Query Your Knowledge Base
+                      - link "Advanced Use Cases and Troubleshooting. 5 dari 14, 6 menit, 36 detik." [ref=e248] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=396
+                        - generic [ref=e251]:
+                          - generic [ref=e252]:
+                            - text: Dari
+                            - generic [ref=e253]: 06:36
+                          - generic [ref=e254]: Advanced Use Cases and Troubleshooting
+                      - 'link "Brainstorming with AI: Generating New Ideas. 6 dari 14, 8 menit, 34 detik." [ref=e255] [cursor=pointer]':
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=514
+                        - generic [ref=e258]:
+                          - generic [ref=e259]:
+                            - text: Dari
+                            - generic [ref=e260]: 08:34
+                          - generic [ref=e261]: "Brainstorming with AI: Generating New Ideas"
+                      - link "Exploring AI Tools for Developers and Designers. 7 dari 14, 9 menit, 4 detik." [ref=e262] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=544
+                        - generic [ref=e265]:
+                          - generic [ref=e266]:
+                            - text: Dari
+                            - generic [ref=e267]: 09:04
+                          - generic [ref=e268]: Exploring AI Tools for Developers and Designers
+                      - link "Enhancing Documentation with AI. 8 dari 14, 9 menit, 27 detik." [ref=e269] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=567
+                        - generic [ref=e272]:
+                          - generic [ref=e273]:
+                            - text: Dari
+                            - generic [ref=e274]: 09:27
+                          - generic [ref=e275]: Enhancing Documentation with AI
+                      - link "Improving Content with AI Edits. 9 dari 14, 9 menit, 53 detik." [ref=e276] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=593
+                        - generic [ref=e279]:
+                          - generic [ref=e280]:
+                            - text: Dari
+                            - generic [ref=e281]: 09:53
+                          - generic [ref=e282]: Improving Content with AI Edits
+                      - link "The Power of AI in Knowledge Management. 10 dari 14, 10 menit, 29 detik." [ref=e283] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=629
+                        - generic [ref=e286]:
+                          - generic [ref=e287]:
+                            - text: Dari
+                            - generic [ref=e288]: 10:29
+                          - generic [ref=e289]: The Power of AI in Knowledge Management
+                      - link "Why Obsidian Still Matters. 11 dari 14, 11 menit, 29 detik." [ref=e290] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=689
+                        - generic [ref=e293]:
+                          - generic [ref=e294]:
+                            - text: Dari
+                            - generic [ref=e295]: 11:29
+                          - generic [ref=e296]: Why Obsidian Still Matters
+                      - link "Using Obsidian for Daily Workflow. 12 dari 14, 12 menit, 13 detik." [ref=e297] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=733
+                        - generic [ref=e300]:
+                          - generic [ref=e301]:
+                            - text: Dari
+                            - generic [ref=e302]: 12:13
+                          - generic [ref=e303]: Using Obsidian for Daily Workflow
+                      - link "Integrating AI with Obsidian. 13 dari 14, 13 menit, 43 detik." [ref=e304] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=823
+                        - generic [ref=e307]:
+                          - generic [ref=e308]:
+                            - text: Dari
+                            - generic [ref=e309]: 13:43
+                          - generic [ref=e310]: Integrating AI with Obsidian
+                      - link "Conclusion and Final Thoughts. 14 dari 14, 14 menit, 48 detik." [ref=e311] [cursor=pointer]:
+                        - /url: https://www.youtube.com/watch?v=nxss50uZgE0&t=888
+                        - generic [ref=e314]:
+                          - generic [ref=e315]:
+                            - text: Dari
+                            - generic [ref=e316]: 14:48
+                          - generic [ref=e317]: Conclusion and Final Thoughts
+                  - button [ref=e318] [cursor=pointer]:
+                    - img [ref=e321]
+            - generic [ref=e329]:
+              - generic [ref=e330]:
+                - generic [ref=e331]:
+                  - 'link "Obsidian + Cursor AI: Organize 2000+ Notes in 10 Minutes ... YouTube Jason Cyr 23 Sep 2025" [ref=e333] [cursor=pointer]':
+                    - /url: https://www.youtube.com/watch?v=1ig8wHXSv0g
+                    - 'heading "Obsidian + Cursor AI: Organize 2000+ Notes in 10 Minutes ... YouTube Jason Cyr 23 Sep 2025" [level=3] [ref=e334]':
+                      - generic [ref=e337]: "Obsidian + Cursor AI: Organize 2000+ Notes in 10 Minutes ..."
+                      - generic [ref=e339]:
+                        - generic [ref=e340]:
+                          - text: YouTube
+                          - generic [ref=e341]: · Jason Cyr
+                        - generic [ref=e342]: 23 Sep 2025
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - text: YouTube
+                            - generic: · Jason Cyr
+                      - button "Tentang hasil ini" [ref=e343] [cursor=pointer]:
+                        - img [ref=e346]
+                - 'button "Obsidian + Cursor AI: Organize 2000+ Notes in 10 Minutes ... oleh Jason Cyr di YouTube. Putar di Google. 12:22" [ref=e348] [cursor=pointer]':
+                  - generic [ref=e349]:
+                    - img [ref=e355]
+                    - generic [ref=e358]:
+                      - generic [ref=e359]: 12:22
+                      - img [ref=e362]
+              - button "9 momen penting di video ini" [ref=e368] [cursor=pointer]:
+                - generic [ref=e377]:
+                  - generic [ref=e380]: 9 momen penting di video ini
+                  - img [ref=e382]
+            - generic [ref=e389]:
+              - generic [ref=e390]:
+                - 'link "Powerful Personal AI Agent Workflow: Cursor + Obsidian for ... YouTube Sean O''Kana 17 Mar 2025" [ref=e392] [cursor=pointer]':
+                  - /url: https://www.youtube.com/watch?v=AQtTJXOi7a8
+                  - 'heading "Powerful Personal AI Agent Workflow: Cursor + Obsidian for ... YouTube Sean O''Kana 17 Mar 2025" [level=3] [ref=e393]':
+                    - generic [ref=e396]: "Powerful Personal AI Agent Workflow: Cursor + Obsidian for ..."
+                    - generic [ref=e398]:
+                      - generic [ref=e399]:
+                        - text: YouTube
+                        - generic [ref=e400]: · Sean O'Kana
+                      - generic [ref=e401]: 17 Mar 2025
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: YouTube
+                          - generic: · Sean O'Kana
+                    - button "Tentang hasil ini" [ref=e402] [cursor=pointer]:
+                      - img [ref=e405]
+              - 'button "Powerful Personal AI Agent Workflow: Cursor + Obsidian for ... oleh Sean O''Kana di YouTube. Putar di Google. 15:21" [ref=e407] [cursor=pointer]':
+                - generic [ref=e408]:
+                  - img [ref=e411]
+                  - generic [ref=e414]:
+                    - generic [ref=e415]: 15:21
+                    - img [ref=e418]
+            - generic [ref=e424]:
+              - generic [ref=e425]:
+                - 'link "JetBrains on Instagram: \"Cursor is now available as an AI ... Instagram JetBrains 1 bulan lalu" [ref=e427] [cursor=pointer]':
+                  - /url: https://www.instagram.com/reel/DVd83foCRhq/
+                  - 'heading "JetBrains on Instagram: \"Cursor is now available as an AI ... Instagram JetBrains 1 bulan lalu" [level=3] [ref=e428]':
+                    - generic [ref=e431]: "JetBrains on Instagram: \"Cursor is now available as an AI ..."
+                    - generic [ref=e433]:
+                      - generic [ref=e434]:
+                        - text: Instagram
+                        - generic [ref=e435]: · JetBrains
+                      - generic [ref=e436]: 1 bulan lalu
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - text: Instagram
+                          - generic: · JetBrains
+                    - button "Tentang hasil ini" [ref=e437] [cursor=pointer]:
+                      - img [ref=e440]
+              - 'link "JetBrains on Instagram: \"Cursor is now available as an AI ... oleh JetBrains di Instagram. Putar di Instagram. 1:01" [ref=e442] [cursor=pointer]':
+                - /url: https://www.instagram.com/reel/DVd83foCRhq/
+                - generic [ref=e443]:
+                  - img [ref=e446]
+                  - generic [ref=e450]: 1:01
+          - link "Lihat semua video" [ref=e453] [cursor=pointer]:
+            - /url: /search?sca_esv=efff2c96d3f18bd3&udm=7&q=cursor+ide+skills+obsidian+vault&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8ccDKAJ6BAgZEAQ
+            - separator [ref=e454]
+            - generic [ref=e455]:
+              - generic [ref=e456]: Lihat semua
+              - img [ref=e458]
+        - generic [ref=e462]:
+          - heading "Web results" [level=2] [ref=e463]
+          - generic [ref=e464]:
+            - generic [ref=e467]:
+              - link "Cursor Bridge for Obsidian GitHub https://github.com › lengff123" [ref=e469] [cursor=pointer]:
+                - /url: https://github.com/lengff123/cursor-bridge
+                - heading "Cursor Bridge for Obsidian" [level=3] [ref=e470]
+                - generic [ref=e475]:
+                  - generic [ref=e477]: GitHub
+                  - generic [ref=e479]: https://github.com › lengff123
+              - generic [ref=e480]:
+                - generic [ref=e481]: ·
+                - link "Terjemahkan halaman ini" [ref=e482] [cursor=pointer]:
+                  - /url: https://github.com/lengff123/cursor-bridge
+              - button "Tentang hasil ini" [ref=e483] [cursor=pointer]:
+                - img [ref=e486]
+            - generic [ref=e490]:
+              - emphasis [ref=e491]: Seamlessly bridge Obsidian and Cursor
+              - text: ", the AI-powered code editor. Elevate your coding workflow by opening notes directly in Cursor."
+        - generic [ref=e495]:
+          - generic [ref=e498]:
+            - 'link "Format vs Control: Giving AI Obsidian Superpowers Medium · oneil bogle 2 bulan yang lalu" [ref=e500] [cursor=pointer]':
+              - /url: https://medium.com/@bogleoneil/format-vs-control-giving-ai-obsidian-superpowers-a9c709a47090
+              - 'heading "Format vs Control: Giving AI Obsidian Superpowers" [level=3] [ref=e501]'
+              - generic [ref=e506]:
+                - generic [ref=e508]: Medium · oneil bogle
+                - generic [ref=e510]: 2 bulan yang lalu
+            - button "Tentang hasil ini" [ref=e511] [cursor=pointer]:
+              - img [ref=e514]
+          - generic [ref=e518]:
+            - text: "Cursor + mcp-obsidian. Pros:"
+            - emphasis [ref=e519]: AI in the IDE can read/write the vault in real time
+            - text: ; works even when the vault isn't the Cursor workspace. Cons ...
+        - generic [ref=e523]:
+          - generic [ref=e526]:
+            - link "Obsidian for Cursor Open VSX https://open-vsx.org › obsidi..." [ref=e528] [cursor=pointer]:
+              - /url: https://open-vsx.org/extension/px39n/obsidianpreview
+              - heading "Obsidian for Cursor" [level=3] [ref=e529]
+              - generic [ref=e534]:
+                - generic [ref=e536]: Open VSX
+                - generic [ref=e538]: https://open-vsx.org › obsidi...
+            - generic [ref=e539]:
+              - generic [ref=e540]: ·
+              - link "Terjemahkan halaman ini" [ref=e541] [cursor=pointer]:
+                - /url: https://open-vsx.org/extension/px39n/obsidianpreview
+            - button "Tentang hasil ini" [ref=e542] [cursor=pointer]:
+              - img [ref=e545]
+          - generic [ref=e549]:
+            - text: Open your
+            - emphasis [ref=e550]: vault
+            - text: folder in
+            - emphasis [ref=e551]: Cursor
+            - text: /VS Code · Open any .md file → Click the 👁️ icon or run
+            - emphasis [ref=e552]: Obsidian
+            - text: "Preview: Open Preview · Everything is handled automatically — ..."
+        - generic [ref=e556]:
+          - generic [ref=e559]:
+            - link "Obsidian Smart Composer - Cursor AI-like editing Obsidian Forum https://forum.obsidian.md › ..." [ref=e561] [cursor=pointer]:
+              - /url: https://forum.obsidian.md/t/new-plugin-obsidian-smart-composer-cursor-ai-like-editing/90016
+              - heading "Obsidian Smart Composer - Cursor AI-like editing" [level=3] [ref=e562]
+              - generic [ref=e567]:
+                - generic [ref=e569]: Obsidian Forum
+                - generic [ref=e571]: https://forum.obsidian.md › ...
+            - generic [ref=e572]:
+              - generic [ref=e573]: ·
+              - link "Terjemahkan halaman ini" [ref=e574] [cursor=pointer]:
+                - /url: https://forum.obsidian.md/t/new-plugin-obsidian-smart-composer-cursor-ai-like-editing/90016
+            - button "Tentang hasil ini" [ref=e575] [cursor=pointer]:
+              - img [ref=e578]
+          - generic [ref=e581]:
+            - generic [ref=e582]: 17 Okt 2024 —
+            - generic [ref=e583]:
+              - text: “Obsidian Smart Composer” is a plugin that helps your writing by referencing
+              - emphasis [ref=e584]: vault
+              - text: content and editing support.
+          - generic [ref=e586]:
+            - text: "Tidak ada: skills ‎| Telusuri dengan:"
+            - link "skills" [ref=e587] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&q=cursor+ide+%22skills%22+obsidian+vault&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q5t4CegQIShAB
+        - generic [ref=e591]:
+          - generic [ref=e594]:
+            - link "Turn Obsidian Into an AI-Powered Second Brain Using ... Web Highlights https://web-highlights.com › ..." [ref=e596] [cursor=pointer]:
+              - /url: https://web-highlights.com/blog/turn-obsidian-into-an-ai-powered-second-brain-using-cursor/
+              - heading "Turn Obsidian Into an AI-Powered Second Brain Using ..." [level=3] [ref=e597]
+              - generic [ref=e602]:
+                - generic [ref=e604]: Web Highlights
+                - generic [ref=e606]: https://web-highlights.com › ...
+            - generic [ref=e607]:
+              - generic [ref=e608]: ·
+              - link "Terjemahkan halaman ini" [ref=e609] [cursor=pointer]:
+                - /url: https://web-highlights.com/blog/turn-obsidian-into-an-ai-powered-second-brain-using-cursor/
+            - button "Tentang hasil ini" [ref=e610] [cursor=pointer]:
+              - img [ref=e613]
+          - generic [ref=e616]:
+            - generic [ref=e617]: 27 Okt 2024 —
+            - generic [ref=e618]:
+              - emphasis [ref=e619]: Transform your Obsidian into an AI-powered second brain using Cursor
+              - text: "! Learn how to integrate AI for smarter note searching and management."
+        - generic [ref=e623]:
+          - generic [ref=e626]:
+            - link "Advanced Cursors Obsidian Stats https://www.obsidianstats.com › ..." [ref=e628] [cursor=pointer]:
+              - /url: https://www.obsidianstats.com/plugins/advanced-cursors
+              - heading "Advanced Cursors" [level=3] [ref=e629]
+              - generic [ref=e634]:
+                - generic [ref=e636]: Obsidian Stats
+                - generic [ref=e638]: https://www.obsidianstats.com › ...
+            - generic [ref=e639]:
+              - generic [ref=e640]: ·
+              - link "Terjemahkan halaman ini" [ref=e641] [cursor=pointer]:
+                - /url: https://www.obsidianstats.com/plugins/advanced-cursors
+            - button "Tentang hasil ini" [ref=e642] [cursor=pointer]:
+              - img [ref=e645]
+          - generic [ref=e649]:
+            - text: The
+            - emphasis [ref=e650]: Advanced Cursors plugin
+            - text: enhances Obsidian's text editing capabilities with advanced cursor manipulation features.
+          - generic [ref=e653]:
+            - generic [ref=e654]:
+              - img "Diberi rating 2,0 dari 5, (117) ulasan pengguna" [ref=e655]:
+                - text: 44%
+                - img [ref=e656]
+                - text: (117)
+              - text: ·
+            - text: Gratis · ‎Utilitas/Peralatan
+        - generic [ref=e663]:
+          - heading "Orang lain juga bertanya" [level=2] [ref=e665]
+          - generic [ref=e666]:
+            - button "Do you need coding skills for Cursor?" [ref=e672] [cursor=pointer]:
+              - generic [ref=e674]: Do you need coding skills for Cursor?
+              - img [ref=e677]
+            - button "How to change Cursor in obsidian?" [ref=e686] [cursor=pointer]:
+              - generic [ref=e688]: How to change Cursor in obsidian?
+              - img [ref=e691]
+            - button "Are there skills in Cursor?" [ref=e700] [cursor=pointer]:
+              - generic [ref=e702]: Are there skills in Cursor?
+              - img [ref=e705]
+            - button "What is Cursor.ide good for?" [ref=e714] [cursor=pointer]:
+              - generic [ref=e716]: What is Cursor.ide good for?
+              - img [ref=e719]
+        - generic [ref=e724]:
+          - heading "Web results" [level=2] [ref=e725]
+          - generic [ref=e726]:
+            - generic [ref=e729]:
+              - link "MCP Obsidian Copilot Cursor LobeHub https://lobehub.com › mcp" [ref=e731] [cursor=pointer]:
+                - /url: https://lobehub.com/mcp/trevoralexanderrobey-mcp-obsidian-copilot-cursor
+                - heading "MCP Obsidian Copilot Cursor" [level=3] [ref=e732]
+                - generic [ref=e737]:
+                  - generic [ref=e739]: LobeHub
+                  - generic [ref=e741]: https://lobehub.com › mcp
+              - generic [ref=e742]:
+                - generic [ref=e743]: ·
+                - link "Terjemahkan halaman ini" [ref=e744] [cursor=pointer]:
+                  - /url: https://lobehub.com/mcp/trevoralexanderrobey-mcp-obsidian-copilot-cursor
+              - button "Tentang hasil ini" [ref=e745] [cursor=pointer]:
+                - img [ref=e748]
+            - generic [ref=e752]:
+              - text: This MCP server
+              - emphasis [ref=e753]: bridges Cursor's AI capabilities with your Obsidian vault
+              - text: ", enabling programmatic access to notes, prompts, conversations, and advanced knowledge ..."
+        - generic [ref=e757]:
+          - heading "Gambar" [level=2] [ref=e761]
+          - generic [ref=e765]:
+            - generic [ref=e769] [cursor=pointer]:
+              - link "Obsidian + Cursor = Magical AI Knowledge Management YouTube":
+                - /url: https://www.youtube.com/watch?v=nxss50uZgE0
+              - button "Obsidian + Cursor = Magical AI Knowledge Management" [ref=e771]:
+                - img "Obsidian + Cursor = Magical AI Knowledge Management" [ref=e773]
+              - generic [ref=e775]:
+                - generic [ref=e777]: Obsidian + Cursor = Magical AI Knowledge Management
+                - generic [ref=e778]:
+                  - generic [ref=e785]: YouTube
+                  - button "Tentang hasil ini" [ref=e788]:
+                    - img [ref=e791]
+            - generic [ref=e796] [cursor=pointer]:
+              - 'link "New Plugin: Obsidian Smart Composer - Cursor AI-like editing ... Obsidian Forum"':
+                - /url: https://forum.obsidian.md/t/new-plugin-obsidian-smart-composer-cursor-ai-like-editing/90016
+              - 'button "New Plugin: Obsidian Smart Composer - Cursor AI-like editing ..." [ref=e798]':
+                - 'img "New Plugin: Obsidian Smart Composer - Cursor AI-like editing ..." [ref=e800]'
+              - generic [ref=e802]:
+                - generic [ref=e804]: "New Plugin: Obsidian Smart Composer - Cursor AI-like editing ..."
+                - generic [ref=e805]:
+                  - generic [ref=e812]: Obsidian Forum
+                  - button "Tentang hasil ini" [ref=e815]:
+                    - img [ref=e818]
+            - generic [ref=e823] [cursor=pointer]:
+              - link "This AI Agent + Obsidian Vault Runs My Entire Business YouTube":
+                - /url: https://www.youtube.com/watch?v=T-GviqtVhuI
+              - button "This AI Agent + Obsidian Vault Runs My Entire Business" [ref=e825]:
+                - img "This AI Agent + Obsidian Vault Runs My Entire Business" [ref=e827]
+              - generic [ref=e829]:
+                - generic [ref=e831]: This AI Agent + Obsidian Vault Runs My Entire Business
+                - generic [ref=e832]:
+                  - generic [ref=e839]: YouTube
+                  - button "Tentang hasil ini" [ref=e842]:
+                    - img [ref=e845]
+          - button "Tampilkan gambar lainnya" [ref=e848] [cursor=pointer]:
+            - separator [ref=e849]
+            - generic [ref=e850]:
+              - generic [ref=e851]: Tampilkan gambar lainnya
+              - img [ref=e853]
+      - generic [ref=e856]:
+        - generic [ref=e861]:
+          - heading "Orang lain juga menelusuri" [level=2] [ref=e863]
+          - generic [ref=e865]:
+            - generic [ref=e866]:
+              - link "Obsidian Cursor bridge" [ref=e870] [cursor=pointer]:
+                - /url: /search?sca_esv=efff2c96d3f18bd3&q=Obsidian+Cursor+bridge&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q1QJ6BAg2EAE
+                - generic [ref=e871]:
+                  - generic [ref=e876]: Obsidian Cursor bridge
+                  - img [ref=e880]
+              - link "Smart Composer Obsidian" [ref=e885] [cursor=pointer]:
+                - /url: /search?sca_esv=efff2c96d3f18bd3&q=Smart+Composer+Obsidian&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q1QJ6BAg6EAE
+                - generic [ref=e886]:
+                  - generic [ref=e891]: Smart Composer Obsidian
+                  - img [ref=e895]
+              - link "Obsidian autocomplete AI" [ref=e900] [cursor=pointer]:
+                - /url: /search?sca_esv=efff2c96d3f18bd3&q=Obsidian+autocomplete+AI&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q1QJ6BAg4EAE
+                - generic [ref=e901]:
+                  - generic [ref=e906]: Obsidian autocomplete AI
+                  - img [ref=e910]
+            - generic [ref=e912]:
+              - link "Obsidian RAG plugin" [ref=e916] [cursor=pointer]:
+                - /url: /search?sca_esv=efff2c96d3f18bd3&q=Obsidian+RAG+plugin&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q1QJ6BAg3EAE
+                - generic [ref=e917]:
+                  - generic [ref=e922]: Obsidian RAG plugin
+                  - img [ref=e926]
+              - link "Obsidian AI plugin" [ref=e931] [cursor=pointer]:
+                - /url: /search?sca_esv=efff2c96d3f18bd3&q=Obsidian+AI+plugin&sa=X&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q1QJ6BAg5EAE
+                - generic [ref=e932]:
+                  - generic [ref=e937]: Obsidian AI plugin
+                  - img [ref=e941]
+        - navigation [ref=e943]:
+          - heading "Navigasi Halaman" [level=1] [ref=e944]
+          - text: "1"
+          - link "Page 2" [ref=e947] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=10&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAE
+            - text: "2"
+          - link "Page 3" [ref=e949] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=20&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAG
+            - text: "3"
+          - link "Page 4" [ref=e951] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=30&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAI
+            - text: "4"
+          - link "Page 5" [ref=e953] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=40&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAK
+            - text: "5"
+          - link "Page 6" [ref=e955] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=50&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAM
+            - text: "6"
+          - link "Page 7" [ref=e957] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=60&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAO
+            - text: "7"
+          - link "Page 8" [ref=e959] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=70&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAQ
+            - text: "8"
+          - link "Page 9" [ref=e961] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=80&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAS
+            - text: "9"
+          - link "Page 10" [ref=e963] [cursor=pointer]:
+            - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=90&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8tMDegQINBAU
+            - text: "10"
+          - heading "Berikutnya" [level=2] [ref=e965]:
+            - link "Berikutnya" [ref=e966] [cursor=pointer]:
+              - /url: /search?q=cursor+ide+skills+obsidian+vault&sca_esv=efff2c96d3f18bd3&ei=85ftaZyUGIulhbIPjtXq-A4&start=10&sa=N&sstk=Af77f_fh7g0Dnfbtget1d8rsLzphzI9hLdwk44NtBNMe4Ob8_QUQ2FmqJ3OLRE0HwT56r7OezKEbcRSKO5_D1WH3XemMV_T3SR-QOg&ved=2ahUKEwjc2dae2oqUAxWLUkEAHY6qGu8Q8NMDegQINBAW
+              - generic [ref=e968]: Berikutnya
+      - navigation
+    - contentinfo [ref=e969]:
+      - heading "Link Footer" [level=1] [ref=e970]
+      - generic [ref=e974]:
+        - generic [ref=e976]:
+          - text: Indonesia
+          - generic [ref=e978]:
+            - button "Curug Sangereng, Banten - Dari alamat IP Anda" [ref=e980] [cursor=pointer]:
+              - generic [ref=e981]: Curug Sangereng, Banten
+              - generic [ref=e983]:
+                - text: "-"
+                - generic [ref=e984]: Dari alamat IP Anda
+            - text: "-"
+            - button "Perbarui lokasi" [ref=e986] [cursor=pointer]: Perbarui lokasi
+        - generic [ref=e989]:
+          - link "Bantuan" [ref=e990] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=id&fg=1
+          - link "Kirim masukan" [ref=e991] [cursor=pointer]:
+            - /url: "#"
+          - link "Privasi" [ref=e992] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=id&fg=1
+          - link "Persyaratan" [ref=e993] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=id&fg=1

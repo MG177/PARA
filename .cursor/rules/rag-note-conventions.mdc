@@ -1,0 +1,54 @@
+---
+description: RAG-first note conventions for project knowledge (frontmatter, TL;DR, stable sections).
+globs: "Projects/**/*.md"
+alwaysApply: false
+---
+
+# RAG-First Note Conventions
+
+Project notes are consumed by LLM agents and retrieval pipelines. Keep them chunk-friendly and self-contained.
+
+## Frontmatter schema (required keys)
+
+```yaml
+---
+id: <type>-<slug>            # e.g., adr-2026-04-26-adopt-moc
+type: moc | adr | changelog | backlog | runbook | doc | meeting
+project: <Project Name>
+status: draft | active | proposed | accepted | superseded | done | blocked | dropped
+owner: <person>
+created: YYYY-MM-DD
+updated: YYYY-MM-DD
+tags: [domain/<x>, tech/<y>, area/<z>]
+links: ["[[Projects/<Project Name>/MOC]]"]
+---
+```
+
+- `id` is globally unique and matches the filename slug.
+- `links` lists strong graph neighbors using OFM wikilinks.
+- `tags` use slash-namespaced taxonomy for filter-friendly retrieval.
+
+## Body structure
+
+- First section is always `## TL;DR` (1-3 sentences, self-contained).
+- Then stable H2 headings specific to the note `type` (see governance rule).
+- Each H2 section should be independently useful as a retrieval chunk: restate the subject if needed.
+- Use short paragraphs or bullets. Avoid nested headings deeper than H3.
+
+## Linking
+
+- OFM wikilinks only: `[[Projects/<Project Name>/decisions/<note>]]`.
+- No `[label](path.md)` for internal links.
+- Cross-reference related notes at the bottom under `## Related` when not already in `links` frontmatter.
+
+## Self-containment
+
+- State `project`, `type`, and core context at the top of the body (the TL;DR).
+- Avoid pronouns without antecedents. Prefer explicit nouns for retrieval clarity.
+- Do not rely on external context that is not linked.
+
+## Agent behavior
+
+- Always populate and keep `updated` current on edit.
+- Keep section order stable; never reorder H2 sections.
+- When adding a new note, mirror the template from `_System/Templates/` exactly.

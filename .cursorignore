@@ -1,0 +1,4 @@
+# Exclude from Cursor indexing and default codebase context (same syntax as .gitignore).
+# See .cursor/rules/temp-directory.mdc for how agents should use /temp.
+
+/temp/

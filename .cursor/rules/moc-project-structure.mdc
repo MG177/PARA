@@ -1,0 +1,43 @@
+---
+description: Enforce non-prefixed MOC project knowledge structure under Projects.
+alwaysApply: true
+---
+
+# MOC Project Structure (No Prefixes)
+
+Use this layout for every project under `Projects/`. Names are plain; never use numeric prefixes.
+
+## Required layout
+
+```
+Projects/<Project Name>/
+  MOC.md
+  documentation/
+  decisions/
+  changelog/
+  backlog/
+  meetings/
+  runbooks/
+  archive/
+```
+
+- `MOC.md` is required and is the project entry point.
+- Folders are created only when the project has notes for them.
+
+## Naming constraints
+
+- Never use numbered folder or file prefixes such as `01-...`, `02_...`, or `10 - ...`.
+- Use kebab-case or Title Case, consistent within a project.
+- One project root folder per outcome.
+
+## PARA boundary
+
+- Active, project-specific notes: `Projects/<Project Name>/`.
+- Reusable, evergreen knowledge: `Resources/`.
+- Ongoing responsibilities: `Areas/`.
+- Inactive work: move into the project's `archive/` or the vault `_Archive/`.
+
+## Agent behavior
+
+- Never rename folders to add numeric prefixes.
+- When creating a new project note, place it in the correct subfolder and link it from `MOC.md`.

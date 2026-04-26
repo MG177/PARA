@@ -1,0 +1,336 @@
+- generic [active] [ref=e1]:
+  - generic:
+    - generic:
+      - link "Lewati ke konten utama" [ref=e2] [cursor=pointer]
+      - link "Bantuan aksesibilitas" [ref=e3] [cursor=pointer]:
+        - /url: https://support.google.com/websearch/answer/181196?hl=id
+      - link "Masukan aksesibilitas" [ref=e4] [cursor=pointer]
+  - generic [ref=e9]:
+    - search [ref=e10]:
+      - generic [ref=e12]:
+        - link "Ke Beranda Google" [ref=e14] [cursor=pointer]:
+          - /url: https://www.google.com/webhp?hl=id&sa=X&ved=0ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQPAgJ
+          - img [ref=e15]
+        - generic [ref=e22]:
+          - generic [ref=e23]:
+            - combobox "Cari" [ref=e26]: site:github.com obsidian PARA skill SKILL.md OR agentskills site:github.com obsidian PARA skill SKILL.md OR agentskills
+            - generic [ref=e27]:
+              - button "Hapus" [ref=e29] [cursor=pointer]:
+                - img [ref=e31]
+              - generic [ref=e34]:
+                - button "Telusuri dengan suara" [ref=e35] [cursor=pointer]:
+                  - img [ref=e36]
+                - button "Telusuri pakai gambar" [ref=e38] [cursor=pointer]:
+                  - img [ref=e39]
+          - button "Telusuri" [ref=e41] [cursor=pointer]:
+            - img [ref=e44]
+    - generic [ref=e46]:
+      - button "Setelan" [ref=e48] [cursor=pointer]:
+        - img [ref=e51]
+      - generic [ref=e54]:
+        - button "Aplikasi Google" [ref=e56] [cursor=pointer]:
+          - img [ref=e57]
+        - link "Login" [ref=e61] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?hl=id&passive=true&continue=https://www.google.com/search%3Fq%3Dsite:github.com%2Bobsidian%2BPARA%2Bskill%2BSKILL.md%2BOR%2Bagentskills&ec=futura_srp_og_si_72236_p
+  - generic [ref=e63]:
+    - navigation [ref=e69]:
+      - generic [ref=e75]:
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "Mode AI" [ref=e80] [cursor=pointer]:
+              - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&udm=50&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&aep=1&ntc=1&sa=X&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ2J8OegQIDBAI
+              - generic [ref=e83]: Mode AI
+          - listitem [ref=e84]:
+            - link "Semua" [disabled] [ref=e85]:
+              - generic [ref=e87]: Semua
+          - listitem [ref=e88]:
+            - link "Gambar" [ref=e89] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=2&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sa=X&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQtKgLegQIExAB
+              - generic [ref=e91]: Gambar
+          - listitem [ref=e92]:
+            - link "Video" [ref=e93] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=7&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sa=X&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQtKgLegQIFBAB
+              - generic [ref=e95]: Video
+          - listitem [ref=e96]:
+            - link "Shopping" [ref=e97] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=28&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&ved=1t:220175&ictx=111
+              - generic [ref=e99]: Shopping
+          - listitem [ref=e100]:
+            - link "Video singkat" [ref=e101] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&udm=39&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sa=X&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQs6gLegQIEBAB
+              - generic [ref=e103]: Video singkat
+          - listitem [ref=e104]:
+            - link "Berita" [ref=e105] [cursor=pointer]:
+              - /url: /search?sca_esv=efff2c96d3f18bd3&q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&tbm=nws&source=lnms&fbs=ADc_l-bieNnsAhEadU3fi9xSgO5m5fPg4SBW_sikWRZU4vJb20S8aOHlyaIr9dUGEOVacvcvT6XK_EhBTcVnrYXid_G2P4kfy-b6mB4O2Ib2_FKFgPleY9rdzJHbckBYuXFDzgiXnsbH6RkuKhJW8jCoFXNxCQWH9IXOCO1ItIFPS9LLg__P6o68B8KQiZH6zv_3XS0XGY-HZSDKkRSIBipeVCB82bQAfg&sa=X&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ0pQJegQIERAB
+              - generic [ref=e107]: Berita
+          - listitem [ref=e108]:
+            - button "Filter lainnya" [ref=e109] [cursor=pointer]:
+              - generic "Filter lainnya" [ref=e110]:
+                - generic [ref=e111]:
+                  - generic [ref=e112]: Lainnya
+                  - img [ref=e114]
+        - button "Alat" [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - generic [ref=e120]: Alat
+            - img [ref=e122]
+    - heading "Hasil Telusur" [level=1] [ref=e124]
+    - generic [ref=e130]:
+      - generic [ref=e131]: Looking for results in English?
+      - link [ref=e132] [cursor=pointer]:
+        - /url: "#"
+        - img [ref=e134]
+      - link "Change to English" [ref=e136] [cursor=pointer]:
+        - /url: /setprefs?sig=0__Dl_fTRkNsKY_3NIKd1W9m9QXm0%3D&source=en_ignored_notification&prev=https://www.google.com/search?q%3Dsite:github.com%2Bobsidian%2BPARA%2Bskill%2BSKILL.md%2BOR%2Bagentskills&hl=en&sa=X&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQhoQCKAF6BAgYEAQ
+      - link "Tetap dalam bahasa Bahasa Indonesia" [ref=e137] [cursor=pointer]:
+        - /url: "#"
+      - link "Setelan bahasa" [ref=e139] [cursor=pointer]:
+        - /url: /preferences?lang=1&hl=id&sa=X&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQiIQCKAN6BAgYEAY#languages
+    - main [ref=e141]:
+      - generic [ref=e145]:
+        - generic [ref=e148]:
+          - heading "Web results" [level=2] [ref=e149]
+          - generic [ref=e150]:
+            - generic [ref=e153]:
+              - 'link "kepano/obsidian-skills: Agent skills for ... GitHub https://github.com › kepano" [ref=e155] [cursor=pointer]':
+                - /url: https://github.com/kepano/obsidian-skills
+                - 'heading "kepano/obsidian-skills: Agent skills for ..." [level=3] [ref=e156]'
+                - generic [ref=e161]:
+                  - generic [ref=e163]: GitHub
+                  - generic [ref=e165]: https://github.com › kepano
+              - generic [ref=e166]:
+                - generic [ref=e167]: ·
+                - link "Terjemahkan halaman ini" [ref=e168] [cursor=pointer]:
+                  - /url: https://github.com/kepano/obsidian-skills
+              - button "Tentang hasil ini" [ref=e169] [cursor=pointer]:
+                - img [ref=e172]
+            - generic [ref=e176]:
+              - text: These
+              - emphasis [ref=e177]: skills
+              - text: follow the
+              - emphasis [ref=e178]: Agent Skills
+              - text: specification so they can be used by any
+              - emphasis [ref=e179]: skills
+              - text: "-compatible agent, including Claude Code and Codex CLI. Installation ..."
+        - generic [ref=e183]:
+          - generic [ref=e186]:
+            - link "Agent SKILL for Obsidian.md plugin development GitHub https://github.com › gapmiss" [ref=e188] [cursor=pointer]:
+              - /url: https://github.com/gapmiss/obsidian-plugin-skill
+              - heading "Agent SKILL for Obsidian.md plugin development" [level=3] [ref=e189]
+              - generic [ref=e194]:
+                - generic [ref=e196]: GitHub
+                - generic [ref=e198]: https://github.com › gapmiss
+            - generic [ref=e199]:
+              - generic [ref=e200]: ·
+              - link "Terjemahkan halaman ini" [ref=e201] [cursor=pointer]:
+                - /url: https://github.com/gapmiss/obsidian-plugin-skill
+            - button "Tentang hasil ini" [ref=e202] [cursor=pointer]:
+              - img [ref=e205]
+          - generic [ref=e209]:
+            - text: A comprehensive agent
+            - emphasis [ref=e210]: skill
+            - text: for developing high-quality
+            - emphasis [ref=e211]: Obsidian
+            - text: plugins that follow best practices, pass code review, and adhere to official submission ...
+        - generic [ref=e215]:
+          - generic [ref=e218]:
+            - link "obsidian-skills/skills/obsidian-cli/SKILL.md at main GitHub https://github.com › blob › S..." [ref=e220] [cursor=pointer]:
+              - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-cli/SKILL.md
+              - heading "obsidian-skills/skills/obsidian-cli/SKILL.md at main" [level=3] [ref=e221]
+              - generic [ref=e226]:
+                - generic [ref=e228]: GitHub
+                - generic [ref=e230]: https://github.com › blob › S...
+            - generic [ref=e231]:
+              - generic [ref=e232]: ·
+              - link "Terjemahkan halaman ini" [ref=e233] [cursor=pointer]:
+                - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-cli/SKILL.md
+            - button "Tentang hasil ini" [ref=e234] [cursor=pointer]:
+              - img [ref=e237]
+          - generic [ref=e241]:
+            - text: description, Interact with Obsidian vaults using the Obsidian CLI to
+            - emphasis [ref=e242]: read, create, search, and manage notes
+            - text: ", tasks, properties, and more."
+        - generic [ref=e246]:
+          - generic [ref=e249]:
+            - link "obsidian-skills/skills/obsidian-markdown/SKILL.md at main GitHub https://github.com › blob › S..." [ref=e251] [cursor=pointer]:
+              - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-markdown/SKILL.md
+              - heading "obsidian-skills/skills/obsidian-markdown/SKILL.md at main" [level=3] [ref=e252]
+              - generic [ref=e257]:
+                - generic [ref=e259]: GitHub
+                - generic [ref=e261]: https://github.com › blob › S...
+            - generic [ref=e262]:
+              - generic [ref=e263]: ·
+              - link "Terjemahkan halaman ini" [ref=e264] [cursor=pointer]:
+                - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/obsidian-markdown/SKILL.md
+            - button "Tentang hasil ini" [ref=e265] [cursor=pointer]:
+              - img [ref=e268]
+          - generic [ref=e272]:
+            - emphasis [ref=e273]: Agent skills for Obsidian
+            - text: . Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI. - obsidian-skills/skills/obsidian-markdown/SKILL.md at ...
+        - generic [ref=e277]:
+          - generic [ref=e280]:
+            - link "obsidian-help/AGENTS.md at master GitHub https://github.com › blob" [ref=e282] [cursor=pointer]:
+              - /url: https://github.com/obsidianmd/obsidian-help/blob/master/AGENTS.md
+              - heading "obsidian-help/AGENTS.md at master" [level=3] [ref=e283]
+              - generic [ref=e288]:
+                - generic [ref=e290]: GitHub
+                - generic [ref=e292]: https://github.com › blob
+            - generic [ref=e293]:
+              - generic [ref=e294]: ·
+              - link "Terjemahkan halaman ini" [ref=e295] [cursor=pointer]:
+                - /url: https://github.com/obsidianmd/obsidian-help/blob/master/AGENTS.md
+            - button "Tentang hasil ini" [ref=e296] [cursor=pointer]:
+              - img [ref=e299]
+          - generic [ref=e303]:
+            - text: A
+            - emphasis [ref=e304]: skill
+            - text: is a set of local instructions to follow that is stored in a
+            - emphasis [ref=e305]: SKILL.md
+            - text: file. Below is the list of
+            - emphasis [ref=e306]: skills
+            - text: that can be used. Each entry includes a name ...
+        - generic [ref=e310]:
+          - generic [ref=e313]:
+            - link "awesome-agent-skills/skills/obsidian-to-x/SKILL.md at main GitHub https://github.com › blob › S..." [ref=e315] [cursor=pointer]:
+              - /url: https://github.com/libukai/awesome-agent-skills/blob/main/skills/obsidian-to-x/SKILL.md
+              - heading "awesome-agent-skills/skills/obsidian-to-x/SKILL.md at main" [level=3] [ref=e316]
+              - generic [ref=e321]:
+                - generic [ref=e323]: GitHub
+                - generic [ref=e325]: https://github.com › blob › S...
+            - generic [ref=e326]:
+              - generic [ref=e327]: ·
+              - link "Terjemahkan halaman ini" [ref=e328] [cursor=pointer]:
+                - /url: https://github.com/libukai/awesome-agent-skills/blob/main/skills/obsidian-to-x/SKILL.md
+            - button "Tentang hasil ini" [ref=e329] [cursor=pointer]:
+              - img [ref=e332]
+          - generic [ref=e336]:
+            - emphasis [ref=e337]: Posts text, images, videos, and long-form articles
+            - text: to X via real Chrome browser (bypasses anti-bot detection). Default Behavior (No Additional Instructions).
+        - generic [ref=e341]:
+          - generic [ref=e344]:
+            - link "heilcheng/awesome-agent-skills GitHub https://github.com › heilcheng" [ref=e346] [cursor=pointer]:
+              - /url: https://github.com/heilcheng/awesome-agent-skills
+              - heading "heilcheng/awesome-agent-skills" [level=3] [ref=e347]
+              - generic [ref=e352]:
+                - generic [ref=e354]: GitHub
+                - generic [ref=e356]: https://github.com › heilcheng
+            - generic [ref=e357]:
+              - generic [ref=e358]: ·
+              - link "Terjemahkan halaman ini" [ref=e359] [cursor=pointer]:
+                - /url: https://github.com/heilcheng/awesome-agent-skills
+            - button "Tentang hasil ini" [ref=e360] [cursor=pointer]:
+              - img [ref=e363]
+          - generic [ref=e367]:
+            - text: Unlike bulk-generated
+            - emphasis [ref=e368]: skill
+            - text: repositories, this collection focuses on real-world
+            - emphasis [ref=e369]: Agent Skills
+            - text: created and used by actual engineering teams. Compatible with ...
+        - generic [ref=e373]:
+          - generic [ref=e376]:
+            - link "obsidian-skills/skills/defuddle/SKILL.md at main GitHub https://github.com › blob › S..." [ref=e378] [cursor=pointer]:
+              - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/defuddle/SKILL.md
+              - heading "obsidian-skills/skills/defuddle/SKILL.md at main" [level=3] [ref=e379]
+              - generic [ref=e384]:
+                - generic [ref=e386]: GitHub
+                - generic [ref=e388]: https://github.com › blob › S...
+            - generic [ref=e389]:
+              - generic [ref=e390]: ·
+              - link "Terjemahkan halaman ini" [ref=e391] [cursor=pointer]:
+                - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/defuddle/SKILL.md
+            - button "Tentang hasil ini" [ref=e392] [cursor=pointer]:
+              - img [ref=e395]
+          - generic [ref=e399]:
+            - emphasis [ref=e400]: Agent skills for Obsidian
+            - text: . Teach your agent to use Markdown, Bases, JSON Canvas, and use the CLI. - obsidian-skills/skills/defuddle/SKILL.md at main ...
+        - generic [ref=e404]:
+          - generic [ref=e407]:
+            - link "obsidian-skills/skills/json-canvas/SKILL.md at main GitHub https://github.com › blob › S..." [ref=e409] [cursor=pointer]:
+              - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/json-canvas/SKILL.md?plain=1
+              - heading "obsidian-skills/skills/json-canvas/SKILL.md at main" [level=3] [ref=e410]
+              - generic [ref=e415]:
+                - generic [ref=e417]: GitHub
+                - generic [ref=e419]: https://github.com › blob › S...
+            - generic [ref=e420]:
+              - generic [ref=e421]: ·
+              - link "Terjemahkan halaman ini" [ref=e422] [cursor=pointer]:
+                - /url: https://github.com/kepano/obsidian-skills/blob/main/skills/json-canvas/SKILL.md?plain=1
+            - button "Tentang hasil ini" [ref=e423] [cursor=pointer]:
+              - img [ref=e426]
+          - generic [ref=e430]:
+            - text: "description:"
+            - emphasis [ref=e431]: Create and edit JSON Canvas files
+            - text: (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual ...
+        - generic [ref=e435]:
+          - generic [ref=e438]:
+            - link "obsidian-terminal/.agents/skills/plugin-testing/SKILL.md at main ... GitHub https://github.com › blob › S..." [ref=e440] [cursor=pointer]:
+              - /url: https://github.com/polyipseity/obsidian-terminal/blob/main/.agents/skills/plugin-testing/SKILL.md
+              - heading "obsidian-terminal/.agents/skills/plugin-testing/SKILL.md at main ..." [level=3] [ref=e441]
+              - generic [ref=e446]:
+                - generic [ref=e448]: GitHub
+                - generic [ref=e450]: https://github.com › blob › S...
+            - generic [ref=e451]:
+              - generic [ref=e452]: ·
+              - link "Terjemahkan halaman ini" [ref=e453] [cursor=pointer]:
+                - /url: https://github.com/polyipseity/obsidian-terminal/blob/main/.agents/skills/plugin-testing/SKILL.md
+            - button "Tentang hasil ini" [ref=e454] [cursor=pointer]:
+              - img [ref=e457]
+          - generic [ref=e461]:
+            - emphasis [ref=e462]: Use this skill to guide both automated and manual testing of Obsidian plugin features
+            - text: . Ensure all tests reflect real plugin usage and production-like conditions ...
+      - navigation [ref=e465]:
+        - heading "Navigasi Halaman" [level=1] [ref=e466]
+        - text: "1"
+        - link "Page 2" [ref=e469] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=10&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAE
+          - text: "2"
+        - link "Page 3" [ref=e471] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=20&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAG
+          - text: "3"
+        - link "Page 4" [ref=e473] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=30&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAI
+          - text: "4"
+        - link "Page 5" [ref=e475] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=40&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAK
+          - text: "5"
+        - link "Page 6" [ref=e477] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=50&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAM
+          - text: "6"
+        - link "Page 7" [ref=e479] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=60&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAO
+          - text: "7"
+        - link "Page 8" [ref=e481] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=70&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAQ
+          - text: "8"
+        - link "Page 9" [ref=e483] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=80&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAS
+          - text: "9"
+        - link "Page 10" [ref=e485] [cursor=pointer]:
+          - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=90&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8tMDegQILxAU
+          - text: "10"
+        - heading "Berikutnya" [level=2] [ref=e487]:
+          - link "Berikutnya" [ref=e488] [cursor=pointer]:
+            - /url: /search?q=site:github.com+obsidian+PARA+skill+SKILL.md+OR+agentskills&sca_esv=efff2c96d3f18bd3&ei=F5jtaeLEDPzuhbIPkuqogAs&start=10&sa=N&sstk=Af77f_cwXlWNHr2d9OWzC-5g_UrhHCG-0jGjPnydmA9KeNXH9-ooWe-Bjvd4L01xhNBL91fAa8S86NRr7YjEq7MAhuBIkX3ufXlcLA&ved=2ahUKEwiirOCv2oqUAxV8d0EAHRI1CrAQ8NMDegQILxAW
+            - generic [ref=e490]: Berikutnya
+      - navigation
+    - contentinfo [ref=e491]:
+      - heading "Link Footer" [level=1] [ref=e492]
+      - generic [ref=e496]:
+        - generic [ref=e498]:
+          - text: Indonesia
+          - generic [ref=e500]:
+            - button "Curug Sangereng, Kabupaten Tangerang, Banten - Berdasarkan aktivitas Anda sebelumnya" [ref=e502] [cursor=pointer]:
+              - generic [ref=e503]: Curug Sangereng, Kabupaten Tangerang, Banten
+              - generic [ref=e505]:
+                - text: "-"
+                - generic [ref=e506]: Berdasarkan aktivitas Anda sebelumnya
+            - text: "-"
+            - button "Perbarui lokasi" [ref=e508] [cursor=pointer]: Perbarui lokasi
+        - generic [ref=e511]:
+          - link "Bantuan" [ref=e512] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/?p=ws_results_help&hl=id&fg=1
+          - link "Kirim masukan" [ref=e513] [cursor=pointer]:
+            - /url: "#"
+          - link "Privasi" [ref=e514] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=id&fg=1
+          - link "Persyaratan" [ref=e515] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=id&fg=1

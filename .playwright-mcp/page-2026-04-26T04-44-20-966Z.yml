@@ -1,0 +1,50 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#content-area"
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - paragraph [ref=e10]:
+            - text: Agent Skills now has an official
+            - link "Discord server" [ref=e11] [cursor=pointer]:
+              - /url: https://discord.gg/MKPE9g8aUy
+            - text: . See the
+            - link "announcement" [ref=e12] [cursor=pointer]:
+              - /url: https://github.com/agentskills/agentskills/discussions/273
+            - text: for details.
+          - button "Dismiss banner" [ref=e13] [cursor=pointer]:
+            - img [ref=e14]
+        - generic [ref=e22]:
+          - link "Agent Skills home page Agent Skills" [ref=e24] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e25]: Agent Skills home page
+            - generic [ref=e26]: Agent Skills
+          - generic [ref=e27]:
+            - button "Open search" [ref=e28] [cursor=pointer]:
+              - generic [ref=e29]:
+                - img [ref=e30]
+                - generic [ref=e33]: Search...
+              - generic [ref=e34]: ⌘K
+            - button "Toggle assistant panel" [ref=e35] [cursor=pointer]:
+              - img [ref=e36]
+              - generic [ref=e39]: Ask AI
+          - generic [ref=e40]:
+            - navigation [ref=e41]:
+              - list [ref=e42]:
+                - listitem [ref=e43] [cursor=pointer]:
+                  - link "agentskills/agentskills 17,179" [ref=e44]:
+                    - /url: https://github.com/agentskills/agentskills
+                    - generic [ref=e45]:
+                      - generic [ref=e46]:
+                        - img [ref=e47]
+                        - generic [ref=e49]: agentskills/agentskills
+                      - generic [ref=e50]:
+                        - img [ref=e51]
+                        - generic [ref=e52]: 17,179
+            - button "Toggle dark mode" [ref=e54] [cursor=pointer]:
+              - img [ref=e55]
+      - generic [ref=e68]:
+        - generic [ref=e69]: "404"
+        - heading "Page Not Found" [level=1] [ref=e70]
+  - alert [ref=e76]

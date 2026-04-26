@@ -1,0 +1,20 @@
+---
+description: Use repo /temp only for bulky agent output; never load it into context by default.
+alwaysApply: true
+---
+
+# `/temp` directory
+
+**Purpose:** Hold **research**, **long LLM answers**, **scratch exports**, and other **ephemeral agent output**. Not project source of truth; not for hand-authored notes you intend to keep in the vault long-term unless you move them out.
+
+## Agents must
+
+- **Write** verbose or long-running agent results to `/temp/` when the user wants a file artifact or when the reply would bloat the chat (use clear names, e.g. `temp/research-<topic>-2026-04-26.md`).
+- **Default omit from context:** Do **not** read, search, grep, or `@` reference anything under `/temp/` unless the user **explicitly** points to a path there or asks to reuse prior temp output.
+- **Chat vs file:** Prefer a **short** user-facing reply in chat; put the full dump in `/temp/` and mention the path only if useful.
+- **No dependency:** Do not treat `/temp/` as authoritative config or docs for the rest of the repo.
+
+## Users
+
+- Files under `/temp/` are **gitignored** and **cursorignored** — they will not be indexed and should not appear in default context.
+- To include something from `/temp/` in a session, **mention the path** or **@** the file explicitly.

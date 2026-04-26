@@ -1,0 +1,53 @@
+---
+description: Standardize ADR, changelog, backlog, runbook, and archive handling for MOC projects.
+globs: "Projects/**/*.md"
+alwaysApply: false
+---
+
+# MOC Governance
+
+Apply these conventions inside `Projects/<Project Name>/` subfolders.
+
+## Decisions (`decisions/`)
+
+- One ADR per file. Filename: `adr-YYYY-MM-DD-<slug>.md`.
+- Required sections: TL;DR, Context, Options, Decision, Consequences, Alternatives Considered, Related ADRs, References.
+- `status`: `proposed | accepted | superseded | deprecated`.
+- Superseding ADRs must link the ADR they replace and vice versa.
+- Link every ADR from `MOC.md` under `Open Decisions` or `Quick Links`.
+
+## Changelog (`changelog/`)
+
+- One entry per file. Filename: `YYYY-MM-DD-<slug>.md`.
+- Required sections: TL;DR, Change, Reason, Impact, Links.
+- Keep factual; no narrative.
+- Link the latest 3-5 entries from `MOC.md` under `Recent Changes`.
+
+## Backlog (`backlog/`)
+
+- One item per file. Filename: `<slug>.md`.
+- Required sections: TL;DR, Description, Acceptance Criteria, Priority, Dependencies, Links.
+- `status`: `draft | ready | in-progress | blocked | done | dropped`.
+- `priority`: `p0 | p1 | p2 | p3`.
+- Active top items linked from `MOC.md` under `Active Backlog`.
+
+## Runbooks (`runbooks/`)
+
+- Required sections: TL;DR, Scope, Preconditions, Procedure, Rollback, Validation, Related Incidents.
+- Linked from `MOC.md` when operationally relevant.
+
+## Meetings (`meetings/`)
+
+- Filename: `YYYY-MM-DD-<slug>.md`.
+- Link decisions or backlog items created from the meeting.
+
+## Archive lifecycle
+
+- On project completion, move project-only inactive notes to `Projects/<Project Name>/archive/`.
+- Promote reusable artifacts to `Resources/` and update links in `MOC.md`.
+- Do not delete notes; archive them.
+
+## Agent behavior
+
+- When creating governance notes, always include the frontmatter and sections above.
+- Keep IDs and filenames aligned (`id` in frontmatter matches the filename slug).

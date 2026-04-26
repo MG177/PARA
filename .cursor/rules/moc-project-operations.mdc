@@ -1,0 +1,38 @@
+---
+description: Treat MOC.md as the operational hub for each project.
+globs: "Projects/**/*.md"
+alwaysApply: false
+---
+
+# MOC Operations
+
+Every project has a single `MOC.md` acting as the control plane.
+
+## Required sections in MOC.md
+
+- `## TL;DR`
+- `## Outcome`
+- `## Status`
+- `## Quick Links` (documentation, decisions, changelog, backlog, meetings, runbooks)
+- `## Open Decisions`
+- `## Active Backlog`
+- `## Recent Changes`
+- `## Risks & Blockers`
+- `## Next Actions`
+
+## Linking discipline
+
+- Any new project note must be linked from `MOC.md` or from a child index linked by `MOC.md`.
+- Use OFM wikilinks only: `[[Projects/<Project Name>/decisions/<note>]]`.
+- Prefer one link per line under Quick Links for scannability.
+
+## Style
+
+- Bullets, not prose.
+- Append-only for status, decisions, and changes history.
+- Keep TL;DR to 1-3 sentences and regenerate on material status change.
+
+## Agent behavior
+
+- When editing a project note, update MOC.md cross-links and the `updated` frontmatter field.
+- If a required section is missing in MOC.md, add it without reordering existing sections.
