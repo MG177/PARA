@@ -14,7 +14,7 @@ Project hubs are **either** a root note `Projects/<Name>.md` **or** a folder ind
 
 - [[Projects/Project Intake]] — inbox before a project exists
 - [[_System/Templates/Project Template]] — new hub note
-- [[Projects/aksara-karir-hub/MOC]] — LumenDev / Aksara Karir LMS
+- [[Projects/aksara-karir/MOC]] — LumenDev / Aksara Karir LMS
 - [[Client Proposal Upgrade]]
 - [[Planning scratch]]
 

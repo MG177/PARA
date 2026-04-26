@@ -6,7 +6,7 @@ alwaysApply: false
 
 # MOC Operations
 
-For **folder-based** projects (`Projects/<Name>/…`), a single **`MOC.md`** at the project root is the control plane—often **`Projects/<Name>/MOC.md`**, or **`Projects/<Name>-hub/MOC.md`** when `<Name>/` is reserved for a submodule clone root (see `.cursor/rules/moc-project-structure.mdc`). If the project uses a **flat hub** only (`Projects/<Name>.md` with no folder), treat that note as the hub instead (never both same slug).
+For **folder-based** projects (`Projects/<Name>/…`), a single **`MOC.md`** at the project root is the control plane. If the project uses a **flat hub** only (`Projects/<Name>.md` with no folder), treat that note as the hub instead—see `.cursor/rules/moc-project-structure.mdc` (never both same slug).
 
 ## Required sections in MOC.md
 
@@ -40,8 +40,8 @@ Each folder MOC must include this section with the table below (agents may paste
 
 ## Quick Links expectations
 
-- Always link **`[[Projects/<Name>/context/index]]`** (or **`[[Projects/<Name>-hub/context/index]]`** when the hub lives in a `-hub` sibling folder) when the project uses a `context/` tree (create `context/index.md` if missing).
-- When **`docs/`** exists under the hub, add **`[[Projects/<Name>/docs/README]]`** on its own line. When the technical repo is a submodule at **`Projects/<Name>/`** (clone root, no `docs/` subfolder), link **`[[Projects/<Name>/README]]`** (or the repo’s doc map path) from the **hub** MOC instead.
+- Always link **`[[Projects/<Name>/context/index]]`** when the project uses a `context/` tree (create `context/index.md` if missing).
+- When **`docs/`** exists (repo mount / submodule / synced tree), add **`[[Projects/<Name>/docs/README]]`** (or the project’s agreed hub path) on its own Quick Links line so technical vs vault narrative are not conflated.
 
 ## Linking discipline
 
